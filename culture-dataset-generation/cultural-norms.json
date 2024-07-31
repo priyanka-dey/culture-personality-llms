@@ -1,0 +1,38 @@
+{
+    "cultural-norms": [
+    {
+        "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in United States.",
+        "country": "United States",
+        "norms": 
+        [
+            {"id": 1, "text": "Individualism is highly valued in the USA, with a strong emphasis on personal freedom and self-reliance."},
+            {"id": 2, "text": "The American Dream encapsulates the belief that anyone, regardless of background, can achieve success through hard work and determination."},
+            {"id": 3, "text": "A commitment to democracy and the principles of freedom and equality is a fundamental aspect of American society."},
+            {"id": 4, "text": "Americans generally value innovation and entrepreneurship, often celebrating those who take risks to create new ventures."},
+            {"id": 5, "text": "The culture places a significant emphasis on education and continuous personal development as pathways to achieving one’s goals."},
+            {"id": 6, "text": "There is a strong sense of patriotism and pride in the country’s history, symbols, and institutions."},
+            {"id": 7, "text": "Volunteerism and community service are important aspects of American life, reflecting a commitment to helping others and improving society."},
+            {"id": 8, "text": "Diversity and multiculturalism are celebrated, with many Americans valuing the cultural contributions of various ethnic groups."},
+            {"id": 9, "text": "The right to free speech and the expression of opinions are deeply ingrained in American culture, with robust debates on a wide range of issues."},
+            {"id": 10, "text": "There is a strong focus on consumerism and the pursuit of material wealth, often seen as indicators of success and status."}
+        ]
+    },
+    {
+        "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in Japan.",
+        "country": "Japan",
+        "norms": 
+        [
+            {"id": 1, "text": "Respect for elders and authority figures is deeply ingrained in Japanese culture, emphasizing the importance of hierarchy and tradition."},
+            {"id": 2, "text": "Japanese society highly values punctuality and time management, reflecting their commitment to efficiency and respect for others' time."},
+            {"id": 3, "text": "The concept of 'Wa,' or harmony, is central to Japanese life, prioritizing group cohesion and avoiding conflict."},
+            {"id": 4, "text": "Politeness and courtesy are fundamental in daily interactions, showcasing the Japanese emphasis on social etiquette."},
+            {"id": 5, "text": "A strong work ethic and dedication to one's job are key aspects of Japanese culture, often exemplified by the concept of 'Kaizen,' or continuous improvement."},
+            {"id": 6, "text": "Cleanliness and orderliness are highly regarded, evident in the meticulous care given to public spaces and personal hygiene."},
+            {"id": 7, "text": "Appreciation for nature and seasonal changes is celebrated through traditional practices and festivals, reflecting the Japanese connection to the environment."},
+            {"id": 8, "text": "Education and lifelong learning are prioritized, with a strong emphasis on academic achievement and personal growth."},
+            {"id": 9, "text": "The Japanese concept of 'Omotenashi' highlights the importance of hospitality and providing exceptional service to others."},
+            {"id": 10, "text": "Community and familial bonds are essential, with a focus on mutual support and collective well-being."}
+        ]
+    }
+]
+}
