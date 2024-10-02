@@ -228,5 +228,513 @@
                 {"id": 108, "norm-id": 10, "text": "A group of friends regularly checks in on a sick or elderly neighbor, offering help and companionship."},
                 {"id": 109, "norm-id": 10, "text": "Parents actively engage in their children’s school activities, attending meetings and supporting events."},
                 {"id": 110, "norm-id": 10, "text": "Community members organize and participate in local sports teams and recreational activities."}
+            ]
+        },
+        {
+            "gpt4-o prompt": "A major cultural norm in {country} is {cultural norm}. I would like to generate some example scenarios showing this cultural norm in {country}. Here are some example scenarios: {scenario 1} {scenario 2} Please generate another 8 scenarios, detailing each scenario with up to 5 sentences. Please refrain from stating the cultural norm in the scenario.",
+            "country": "Brazil",
+            "scenarios": [
+                {
+                    "id": 1,
+                    "norm-id": 1,
+                    "text": "Carlos, a young professional, chooses to move back to his hometown to be closer to his aging parents. Despite a lucrative job offer in another city, he values the importance of being near family and helping care for them."
+                },
+                {
+                    "id": 2,
+                    "norm-id": 1,
+                    "text": "During a family gathering, Maria spends the entire weekend with her extended family, including cousins, grandparents, and siblings. She actively participates in preparing meals, sharing stories, and maintaining strong connections with her relatives, as family time is a key priority in her life."
+                },
+                {
+                    "id": 3,
+                    "norm-id": 1,
+                    "text": "After graduating from college, Ana decides to live with her parents rather than move into her own apartment. She enjoys the comfort of having daily meals with her family and loves helping her younger siblings with their schoolwork."
+                },
+                {
+                    "id": 4,
+                    "norm-id": 1,
+                    "text": "João, a businessman, frequently makes time to visit his grandmother every weekend, despite his busy work schedule. He believes in maintaining a close relationship with her and values the advice and wisdom she shares with him."
+                },
+                {
+                    "id": 5,
+                    "norm-id": 1,
+                    "text": "When Pedro’s sister falls ill, he takes a week off from work to stay with her and help care for her children. The rest of the family also steps in, organizing shifts to support her recovery and ensure everything runs smoothly at home."
+                },
+                {
+                    "id": 6,
+                    "norm-id": 1,
+                    "text": "Luciana organizes a surprise birthday party for her mother, inviting not only immediate family but also distant relatives who live in different parts of the country. For Luciana, this gathering is an important way to celebrate family milestones together."
+                },
+                {
+                    "id": 7,
+                    "norm-id": 1,
+                    "text": "After the birth of their first child, Felipe and his wife move in with Felipe’s parents for a few months. They appreciate the help and support from their parents during this new stage of life, especially with childcare and daily tasks."
+                },
+                {
+                    "id": 8,
+                    "norm-id": 1,
+                    "text": "Rafael, who works abroad, ensures that he video calls his family in Brazil every Sunday. Even from a distance, he makes sure to stay involved in their lives, discussing everything from daily happenings to big family decisions."
+                },
+                {
+                    "id": 9,
+                    "norm-id": 1,
+                    "text": "Every year, Sofia’s family reunites at her grandparents’ countryside home for a traditional holiday celebration. The event is filled with family games, cooking together, and storytelling, strengthening the bonds between the generations."
+                },
+                {
+                    "id": 10,
+                    "norm-id": 1,
+                    "text": "When Daniela’s uncle loses his job, her entire family comes together to offer financial and emotional support. Each family member contributes in different ways, helping him get back on his feet while making sure he feels valued and supported."
+                },
+                {
+                    "id": 21,
+                    "norm-id": 2,
+                    "text": "When Sofia’s friend from abroad visits Brazil for the first time, she invites him to stay at her home for the entire week, offering home-cooked meals and taking him on tours around her city."
+                },
+                {
+                    "id": 22,
+                    "norm-id": 2,
+                    "text": "Marcos meets a traveler who got lost while looking for a local landmark, and instead of just giving directions, he offers to accompany them and later invites them for a coffee at his home."
+                },
+                {
+                    "id": 23,
+                    "norm-id": 2,
+                    "text": "Ana hosts a neighborhood barbecue and opens her doors to everyone, including people she doesn’t know well, ensuring everyone feels included and offering food and drinks throughout the event."
+                },
+                {
+                    "id": 24,
+                    "norm-id": 2,
+                    "text": "When João’s new colleague moves to the city, he not only helps her find an apartment but also invites her to his home for dinner to introduce her to his family and friends."
+                },
+                {
+                    "id": 25,
+                    "norm-id": 2,
+                    "text": "Carla loves to host gatherings at her house, often inviting friends, family, and even new acquaintances over to share meals and spend time together, making sure everyone feels welcome."
+                },
+                {
+                    "id": 26,
+                    "norm-id": 2,
+                    "text": "During Carnival, Pedro offers his apartment to friends who need a place to stay, going out of his way to make sure they are comfortable and have everything they need for the festivities."
+                },
+                {
+                    "id": 27,
+                    "norm-id": 2,
+                    "text": "Lucas encounters a group of tourists at a local market who are unsure of where to go next, so he offers to guide them around town and later invites them to a family lunch."
+                },
+                {
+                    "id": 28,
+                    "norm-id": 2,
+                    "text": "Maria meets a new family that just moved into the neighborhood and immediately invites them over for dinner, cooking a traditional Brazilian meal to help them feel at home."
+                },
+                {
+                    "id": 29,
+                    "norm-id": 2,
+                    "text": "When Daniela hears that her neighbor’s relatives are coming to visit from another city, she bakes a cake and brings it over to their house to welcome the guests."
+                },
+                {
+                    "id": 30,
+                    "norm-id": 2,
+                    "text": "After attending a work conference, Thiago invites his international colleagues to his home for a relaxed evening, serving traditional Brazilian food and sharing stories from his country’s culture."
+                },
+                {
+                    "id": 31,
+                    "norm-id": 3,
+                    "text": "During Carnival, Beatriz and her friends spend months preparing their costumes and choreography, excited to participate in the parades and share the vibrant energy of the festivities with others."
+                },
+                {
+                    "id": 32,
+                    "norm-id": 3,
+                    "text": "At the annual Festa Junina, families gather in their backyards to celebrate with traditional food, games, and music, creating a joyful atmosphere filled with laughter and dancing."
+                },
+                {
+                    "id": 33,
+                    "norm-id": 3,
+                    "text": "Rafael organizes a samba night at a local club, inviting friends to dance and enjoy live music, believing that these moments of celebration bring everyone closer together."
+                },
+                {
+                    "id": 34,
+                    "norm-id": 3,
+                    "text": "When the World Cup approaches, Marta decorates her home with flags and organizes viewing parties for her friends, turning each game into a lively celebration filled with cheering and music."
+                },
+                {
+                    "id": 35,
+                    "norm-id": 3,
+                    "text": "During a family reunion, Luciana sets up a mini dance floor in her backyard and plays traditional Brazilian music, encouraging everyone to join in and celebrate their heritage together."
+                },
+                {
+                    "id": 36,
+                    "norm-id": 3,
+                    "text": "João attends a local festival where people gather to celebrate cultural diversity through dance, food, and music, feeling a sense of joy and unity with the community."
+                },
+                {
+                    "id": 37,
+                    "norm-id": 3,
+                    "text": "At the end of the year, a group of friends comes together for a New Year's Eve celebration on the beach, wearing white for good luck, dancing to live music, and participating in local traditions."
+                },
+                {
+                    "id": 38,
+                    "norm-id": 3,
+                    "text": "Sofia invites her neighbors to celebrate her birthday with a lively party featuring a live band, encouraging everyone to dance and enjoy the festive atmosphere."
+                },
+                {
+                    "id": 39,
+                    "norm-id": 3,
+                    "text": "During the Folklore Festival, families and friends gather to watch performances of traditional dances, feeling proud of their culture and celebrating together as a community."
+                },
+                {
+                    "id": 40,
+                    "norm-id": 3,
+                    "text": "Carlos volunteers at a local charity event where music and dance are central, bringing joy to children and families while creating a festive atmosphere filled with laughter and celebration."
+                },
+                {
+                    "id": 41,
+                    "norm-id": 4,
+                    "text": "When the local factory closes, Paula quickly gathers her community to brainstorm ways to start a cooperative business, utilizing their skills and resources to create new job opportunities."
+                },
+                {
+                    "id": 42,
+                    "norm-id": 4,
+                    "text": "After a devastating flood damages her home, Fernanda creatively transforms the challenges into a chance to organize a community fundraising event, bringing neighbors together to support each other."
+                },
+                {
+                    "id": 43,
+                    "norm-id": 4,
+                    "text": "Despite facing financial difficulties, Lucas starts a small food delivery service from home, using social media to promote his dishes and connect with customers in his neighborhood."
+                },
+                {
+                    "id": 44,
+                    "norm-id": 4,
+                    "text": "When a local park falls into disrepair, a group of residents, led by Ricardo, band together to clean it up and organize events to revitalize the community space."
+                },
+                {
+                    "id": 45,
+                    "norm-id": 4,
+                    "text": "After losing his job, André takes up gardening as a hobby, quickly turning it into a small business by selling organic produce to local markets and restaurants."
+                },
+                {
+                    "id": 46,
+                    "norm-id": 4,
+                    "text": "When faced with a health challenge, Maria joins a support group and shares her story, inspiring others to overcome their difficulties and pursue healthier lifestyles together."
+                },
+                {
+                    "id": 47,
+                    "norm-id": 4,
+                    "text": "Following an economic downturn, Beatriz initiates skill-sharing workshops in her community, where neighbors teach each other various trades, empowering everyone to adapt and thrive."
+                },
+                {
+                    "id": 48,
+                    "norm-id": 4,
+                    "text": "After a natural disaster impacts her town, Gabriela leads efforts to rebuild homes and infrastructure, using her creativity to design sustainable and resilient solutions."
+                },
+                {
+                    "id": 49,
+                    "norm-id": 4,
+                    "text": "When the local school faces budget cuts, a group of parents, including João, collaborate to raise funds and implement programs that keep extracurricular activities alive."
+                },
+                {
+                    "id": 50,
+                    "norm-id": 4,
+                    "text": "Facing the challenges of a tough job market, Amanda creates an online platform to connect freelancers in her city, facilitating collaboration and support among them."
+                },
+                {
+                    "id": 51,
+                    "norm-id": 5,
+                    "text": "During a cultural festival, the community showcases traditional dances, music, and food from various ethnic groups, celebrating the rich diversity that shapes their identity."
+                },
+                {
+                    "id": 52,
+                    "norm-id": 5,
+                    "text": "At a university event, students from different backgrounds share their cultural traditions through art exhibits and performances, fostering an environment of respect and appreciation."
+                },
+                {
+                    "id": 53,
+                    "norm-id": 5,
+                    "text": "In a local neighborhood, a potluck dinner is organized where families bring dishes from their cultural heritage, creating a space for sharing stories and building connections."
+                },
+                {
+                    "id": 54,
+                    "norm-id": 5,
+                    "text": "When a new family moves into the neighborhood, community members, including both locals and immigrants, organize a welcome party to introduce themselves and share their cultures."
+                },
+                {
+                    "id": 55,
+                    "norm-id": 5,
+                    "text": "During an interfaith dialogue event, individuals from various religious backgrounds come together to share their beliefs and practices, promoting understanding and harmony among different faiths."
+                },
+                {
+                    "id": 56,
+                    "norm-id": 5,
+                    "text": "A local art gallery hosts an exhibition featuring artists from marginalized communities, highlighting their unique perspectives and contributions to Brazilian culture."
+                },
+                {
+                    "id": 57,
+                    "norm-id": 5,
+                    "text": "In schools, students participate in multicultural days where they dress in traditional attire and present information about their backgrounds, encouraging inclusivity and respect."
+                },
+                {
+                    "id": 58,
+                    "norm-id": 5,
+                    "text": "When the city hosts an international film festival, filmmakers from diverse backgrounds are invited to showcase their work, emphasizing the importance of varied voices in storytelling."
+                },
+                {
+                    "id": 59,
+                    "norm-id": 5,
+                    "text": "A community center offers language classes taught by native speakers, allowing residents to learn about different cultures while acquiring new communication skills."
+                },
+                {
+                    "id": 60,
+                    "norm-id": 5,
+                    "text": "During a local fair, artisans from various regions present their crafts, encouraging visitors to appreciate the artistry and traditions that stem from Brazil's rich cultural diversity."
+                },
+                {
+                    "id": 61,
+                    "norm-id": 6,
+                    "text": "During a weekend trip to the Amazon, Lucas participates in a guided tour that educates him on the region's biodiversity and the importance of preserving its ecosystems."
+                },
+                {
+                    "id": 62,
+                    "norm-id": 6,
+                    "text": "Maria leads a local initiative to clean up the nearby river, rallying community members to come together and understand the impact of pollution on wildlife and local habitats."
+                },
+                {
+                    "id": 63,
+                    "norm-id": 6,
+                    "text": "As part of a school project, João and his classmates create a presentation on endangered species in Brazil, highlighting the need for conservation efforts to protect their natural heritage."
+                },
+                {
+                    "id": 64,
+                    "norm-id": 6,
+                    "text": "After learning about deforestation, Beatriz decides to plant native trees in her neighborhood, encouraging her friends and family to join her in restoring local green spaces."
+                },
+                {
+                    "id": 65,
+                    "norm-id": 6,
+                    "text": "During Earth Day celebrations, a group of friends organizes a hike in the Atlantic Forest, using the opportunity to discuss environmental issues and promote sustainable practices."
+                },
+                {
+                    "id": 66,
+                    "norm-id": 6,
+                    "text": "When visiting a national park, Sofia documents the unique flora and fauna through photography, sharing her experiences on social media to raise awareness about Brazil's natural beauty."
+                },
+                {
+                    "id": 67,
+                    "norm-id": 6,
+                    "text": "As an activist, Carlos participates in protests advocating for the protection of the Amazon Rainforest, uniting with others to fight against illegal logging and environmental degradation."
+                },
+                {
+                    "id": 68,
+                    "norm-id": 6,
+                    "text": "During family gatherings, discussions often revolve around sustainable farming practices, as Luciana's family emphasizes the importance of respecting the land and its resources."
+                },
+                {
+                    "id": 69,
+                    "norm-id": 6,
+                    "text": "In her spare time, Amanda volunteers with a wildlife rescue organization, helping rehabilitate injured animals and educating the public on the importance of biodiversity."
+                },
+                {
+                    "id": 70,
+                    "norm-id": 6,
+                    "text": "At the local farmer's market, Rafael promotes organic produce, explaining to customers how sustainable agriculture benefits the environment and supports local ecosystems."
+                },
+                {
+                    "id": 71,
+                    "norm-id": 7,
+                    "text": "During a neighborhood barbecue, everyone contributes a dish, creating a sense of community as they gather to share food and stories while fostering strong ties."
+                },
+                {
+                    "id": 72,
+                    "norm-id": 7,
+                    "text": "When Ana notices her elderly neighbor struggling with groceries, she immediately offers to help, demonstrating the mutual support that is common among residents."
+                },
+                {
+                    "id": 73,
+                    "norm-id": 7,
+                    "text": "Every Sunday, a group of neighbors organizes a soccer match in the local park, where families come together to bond and enjoy the sense of camaraderie."
+                },
+                {
+                    "id": 74,
+                    "norm-id": 7,
+                    "text": "When a local family experiences a crisis, the community rallies around them, providing meals and assistance, showcasing the strong support networks in place."
+                },
+                {
+                    "id": 75,
+                    "norm-id": 7,
+                    "text": "During a neighborhood clean-up event, residents of all ages come together to pick up litter and beautify their surroundings, reinforcing the importance of working as a community."
+                },
+                {
+                    "id": 76,
+                    "norm-id": 7,
+                    "text": "At the local community center, workshops are held where neighbors teach each other skills, from cooking to crafts, enhancing relationships and creating a supportive environment."
+                },
+                {
+                    "id": 77,
+                    "norm-id": 7,
+                    "text": "When a new family moves in, the residents organize a welcome gathering, ensuring they feel included and fostering a sense of belonging right from the start."
+                },
+                {
+                    "id": 78,
+                    "norm-id": 7,
+                    "text": "During school events, parents collaborate to organize activities, demonstrating teamwork and a collective effort to support the children and each other."
+                },
+                {
+                    "id": 79,
+                    "norm-id": 7,
+                    "text": "Every month, neighbors gather for a potluck dinner, creating a relaxed atmosphere to connect, share experiences, and strengthen their bonds."
+                },
+                {
+                    "id": 80,
+                    "norm-id": 7,
+                    "text": "In times of celebration, such as birthdays or holidays, the community comes together to decorate and celebrate, enhancing the joy and spirit of togetherness."
+                },
+                {
+                    "id": 81,
+                    "norm-id": 8,
+                    "text": "During the World Cup, families gather around their televisions, cheering passionately for their national team, showcasing the sport's ability to unite people from different backgrounds."
+                },
+                {
+                    "id": 82,
+                    "norm-id": 8,
+                    "text": "At a local park, children from various neighborhoods come together to play football, forming teams regardless of their social status, all sharing the joy of the game."
+                },
+                {
+                    "id": 83,
+                    "norm-id": 8,
+                    "text": "In anticipation of a big match, Maria organizes a viewing party, inviting friends and neighbors to celebrate together, reinforcing the community spirit through their shared love for football."
+                },
+                {
+                    "id": 84,
+                    "norm-id": 8,
+                    "text": "After winning a significant tournament, players from diverse backgrounds are celebrated in the streets, as fans of all ages come together to honor their achievements and enjoy the festive atmosphere."
+                },
+                {
+                    "id": 85,
+                    "norm-id": 8,
+                    "text": "During a community festival, a football tournament is organized, encouraging participation from all ages and promoting sportsmanship, teamwork, and unity."
+                },
+                {
+                    "id": 86,
+                    "norm-id": 8,
+                    "text": "As a coach, João emphasizes the importance of inclusivity in his youth team, fostering friendships among players from different social classes through their shared passion for football."
+                },
+                {
+                    "id": 87,
+                    "norm-id": 8,
+                    "text": "When the national team plays, businesses close early to allow employees to watch the match together, illustrating the collective excitement and importance of the sport."
+                },
+                {
+                    "id": 88,
+                    "norm-id": 8,
+                    "text": "After a heated game, rival fans exchange friendly banter and snacks, demonstrating how football transcends rivalry and fosters mutual respect."
+                },
+                {
+                    "id": 89,
+                    "norm-id": 8,
+                    "text": "At school, teachers incorporate football into lessons, using it as a tool to teach teamwork, discipline, and perseverance among students."
+                },
+                {
+                    "id": 90,
+                    "norm-id": 8,
+                    "text": "During the Olympics, Brazilians gather to support not only their football team but all athletes, displaying national pride and unity across various sports."
+                },
+                {
+                    "id": 91,
+                    "norm-id": 9,
+                    "text": "After facing challenges at work, Lucas maintains a positive outlook, believing that each setback is an opportunity for growth and improvement."
+                },
+                {
+                    "id": 92,
+                    "norm-id": 9,
+                    "text": "During difficult times, Ana often organizes get-togethers with friends, focusing on laughter and support, reinforcing their belief that optimism can help them overcome any obstacles."
+                },
+                {
+                    "id": 93,
+                    "norm-id": 9,
+                    "text": "As the community deals with a recent storm's damage, neighbors come together to help each other rebuild, emphasizing their hopeful outlook and determination to recover."
+                },
+                {
+                    "id": 94,
+                    "norm-id": 9,
+                    "text": "When facing a health scare, Beatriz chooses to focus on the positive aspects of her situation, surrounding herself with supportive friends and family who uplift her spirits."
+                },
+                {
+                    "id": 95,
+                    "norm-id": 9,
+                    "text": "At a local café, Maria shares inspiring stories of resilience and positivity with patrons, fostering an environment of hope and encouragement among her customers."
+                },
+                {
+                    "id": 96,
+                    "norm-id": 9,
+                    "text": "After losing a close match, the football team gathers to celebrate their efforts, discussing the lessons learned and remaining optimistic about their next game."
+                },
+                {
+                    "id": 97,
+                    "norm-id": 9,
+                    "text": "When faced with economic challenges, Carlos remains hopeful and actively seeks new opportunities, believing that hard work and a positive attitude will lead to success."
+                },
+                {
+                    "id": 98,
+                    "norm-id": 9,
+                    "text": "During a community meeting, residents express their optimism about upcoming projects, focusing on the potential benefits for their neighborhood and collaborating for a brighter future."
+                },
+                {
+                    "id": 99,
+                    "norm-id": 9,
+                    "text": "While volunteering at a local shelter, Sofia encourages others to focus on the positive impact they are making in their community, promoting a culture of hope and kindness."
+                },
+                {
+                    "id": 100,
+                    "norm-id": 9,
+                    "text": "Even in tough times, families in Brazil celebrate small victories together, creating a tradition of finding joy and gratitude in everyday moments."
+                },
+                {
+                    "id": 101,
+                    "norm-id": 10,
+                    "text": "During Sunday mass, families come together to pray and reflect, emphasizing the importance of their shared faith and community."
+                },
+                {
+                    "id": 102,
+                    "norm-id": 10,
+                    "text": "At a local Afro-Brazilian festival, Ana participates in rituals that honor her ancestry, embracing the spiritual traditions that guide her moral values."
+                },
+                {
+                    "id": 103,
+                    "norm-id": 10,
+                    "text": "As a part of their religious practice, João's family gathers every week to light candles and pray, fostering a strong connection to their faith and each other."
+                },
+                {
+                    "id": 104,
+                    "norm-id": 10,
+                    "text": "During a family gathering, Beatriz leads a discussion about the significance of their religious beliefs in shaping their values, inspiring younger generations to embrace their spirituality."
+                },
+                {
+                    "id": 105,
+                    "norm-id": 10,
+                    "text": "In preparation for a religious holiday, Carlos and his friends volunteer to help organize events at the local church, showcasing their commitment to community service and faith."
+                },
+                {
+                    "id": 106,
+                    "norm-id": 10,
+                    "text": "At a community center, residents gather for a prayer circle, reflecting on their lives and supporting one another through shared beliefs and spirituality."
+                },
+                {
+                    "id": 107,
+                    "norm-id": 10,
+                    "text": "While celebrating a significant religious event, Maria shares her family's traditions and rituals, reinforcing the importance of their faith in guiding their everyday lives."
+                },
+                {
+                    "id": 108,
+                    "norm-id": 10,
+                    "text": "In school, teachers incorporate lessons about different spiritual practices, promoting understanding and respect for the diverse beliefs present in Brazilian culture."
+                },
+                {
+                    "id": 109,
+                    "norm-id": 10,
+                    "text": "As a part of their wedding ceremony, couples often blend different cultural and religious traditions, highlighting the rich tapestry of faith in Brazil."
+                },
+                {
+                    "id": 110,
+                    "norm-id": 10,
+                    "text": "During national holidays, Brazilians participate in parades and celebrations that reflect their diverse religious heritage, showcasing unity in faith and cultural expression."
+                }
+            ]
+        }
     ]
 }

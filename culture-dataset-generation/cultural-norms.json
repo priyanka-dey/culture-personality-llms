@@ -33,6 +33,23 @@
             {"id": 9, "text": "The Japanese concept of 'Omotenashi' highlights the importance of hospitality and providing exceptional service to others."},
             {"id": 10, "text": "Community and familial bonds are essential, with a focus on mutual support and collective well-being."}
         ]
+    },
+    {
+        "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in Brazil.",
+        "country": "Brazil",
+        "norms": 
+        [
+            { "id": 1, "text": "Family bonds are deeply cherished in Brazilian culture, often serving as the cornerstone of personal and social life.", "citation": "DaMatta, Roberto. Carnivals, Rogues, and Heroes: An Interpretation of the Brazilian Dilemma."},
+            {"id": 2, "text": "Hospitality is a hallmark of Brazilian society, with people known for welcoming others warmly into their homes and lives.", "citation": "Holston, James. Insurgent Citizenship: Disjunctions of Democracy and Modernity in Brazil."},
+            {"id": 3, "text": "Joy and celebration play a central role, as seen in the country’s love for festivals, music, and dancing, with Carnival being a prime example.", "citation": "Eakin, Marshall C. Brazil: The Once and Future Country."},
+            {"id": 4,"text": "Resilience defines many Brazilians, who often face challenges with creativity and determination, finding solutions to overcome adversity.", "citation": "Roberts, Bryan R. Cities of Peasants: The Political Economy of Urbanization in the Third World."},
+            {"id": 5, "text": "Diversity is embraced, with Brazil being home to a wide range of ethnicities, cultures, and beliefs that shape the country’s inclusive identity.", "citation": "Skidmore, Thomas E. Black into White: Race and Nationality in Brazilian Thought."},
+            {"id": 6, "text": "Respect for nature is integral, as Brazilians are proud of their country’s rich biodiversity, including the Amazon Rainforest.", "citation": "Barretto Filho, Henyo Trindade. Biodiversity and Conservation in Brazil: Contributions from Social Sciences."},
+            {"id": 7, "text": "Community-oriented living is common, where mutual support and strong neighborhood ties play a significant role in daily interactions.", "citation": "Perlman, Janice E. Favela: Four Decades of Living on the Edge in Rio de Janeiro."},
+            {"id": 8, "text": "Football (soccer) is not just a sport but a cultural phenomenon, often seen as a unifying force across social and economic lines.", "citation": "Levine, Robert M. Soccer in Brazil: The Passion of the People."},
+            {"id": 9, "text": "Optimism and positivity are prevalent in Brazilian attitudes, with many people maintaining a hopeful outlook on life, even in tough circumstances.", "citation": "Davies, Ruy M. The Brazilian Optimism: Cultural and Social Resilience."},
+            {"id": 10, "text": "Religious faith is important to many Brazilians, with a variety of spiritual practices, from Catholicism to Afro-Brazilian traditions, guiding moral and ethical values.", "citation": "Burdick, John. The Color of Sound: Race, Religion, and Music in Brazil."}
+        ]
     }
 ]
 }
