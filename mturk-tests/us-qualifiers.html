@@ -1,11 +1,13 @@
 <html lang="en">
 
+<body>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
     <script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
 
     <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- HITPUB CSS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -16,6 +18,7 @@
         #hitinfo .card {
             border-radius: 0;
         }
+
         #hitinfo button.btn-link {
             color: #fff;
             text-decoration: none;
@@ -24,6 +27,7 @@
         #hitinfo button.btn-link:hover {
             text-decoration: none;
         }
+
         #hit ul.question-choice {
             list-style-type: none;
         }
@@ -35,9 +39,11 @@
             font-family: "Open Sans", "Roboto", sans-serif;
             line-height: 1.25;
         }
+
         textarea#feedback {
             width: 100%
         }
+
         input#submitButton {
             margin: auto;
             display: block;
@@ -48,6 +54,7 @@
             cursor: pointer;
             border-radius: 1rem;
         }
+
         input#submitButton:hover {
             background-color: #06486F;
         }
@@ -62,7 +69,7 @@
         }
 
         li {
-            margin:0.6em;
+            margin: 0.6em;
         }
 
         table {
@@ -71,21 +78,21 @@
         }
 
         tr {
-            border:1px solid #ccc;
+            border: 1px solid #ccc;
         }
 
         th {
-            width:20%;
-            background-color:#fff;
-            font-weight:normal;
+            width: 20%;
+            background-color: #fff;
+            font-weight: normal;
             text-align: center;
-            padding:0.5em;
+            padding: 0.5em;
         }
 
 
         td {
-            padding-left:20px;
-            padding-right:10px;
+            padding-left: 20px;
+            padding-right: 10px;
         }
 
 
@@ -97,6 +104,7 @@
         div.card-header {
             background-color: #06486F;
         }
+
         div.card-header h5 {
             color: #fff !important;
         }
@@ -115,7 +123,8 @@
             font-weight: normal;
             padding-left: 40px;
         }
-        .legend .label{
+
+        .legend .label {
             font-style: italic;
         }
 
@@ -126,12 +135,12 @@
         }
 
         .btn-group-container {
-            align:left;
-            padding:0;
+            align: left;
+            padding: 0;
         }
 
         .example {
-            pointer-events:none;
+            pointer-events: none;
         }
 
         .title {
@@ -148,7 +157,8 @@
             font-weight: bold;
         }
 
-        .btn-group-xs > .btn, .btn-xs {
+        .btn-group-xs>.btn,
+        .btn-xs {
             padding: .4rem .4rem;
             font-size: .8rem;
             line-height: 1.2;
@@ -156,7 +166,7 @@
         }
 
         .card-body {
-            background-color:#fbfbfb;
+            background-color: #fbfbfb;
         }
 
         .concept_a {
@@ -184,7 +194,7 @@
         }
 
         .sm-bold {
-            font-weight:bold;
+            font-weight: bold;
             font-style: italic;
             font-size: 80%;
         }
@@ -200,82 +210,125 @@
             border-radius: 1rem;
         }
 
-        label[for="2"]:hover, label[for="2"].active {
-            background-color:  #02523C !important;
+        label[for="2"]:hover,
+        label[for="2"].active {
+            background-color: #02523C !important;
             color: white;
         }
-        label[for="1"]:hover, label[for="1"].active {
+
+        label[for="1"]:hover,
+        label[for="1"].active {
             background-color: #047D5C !important;
             color: white;
         }
 
-        label[for="0"]:hover, label[for="0"].active {
+        label[for="0"]:hover,
+        label[for="0"].active {
             background-color: rgb(212, 216, 1) !important;
             color: white;
         }
-        label[for="-1"]:hover, label[for="-1"].active {
+
+        label[for="-1"]:hover,
+        label[for="-1"].active {
             background-color: #c20000 !important;
             color: white;
         }
 
-        label[for="-2"]:hover, label[for="-2"].active {
+        label[for="-2"]:hover,
+        label[for="-2"].active {
             background-color: rgb(136, 0, 0) !important;
             color: white;
         }
 
-        label[for="-9"]:hover, label[for="-9"].active {
+        label[for="-9"]:hover,
+        label[for="-9"].active {
             background-color: rgb(73, 73, 73) !important;
             color: white;
         }
 
-        .negOne-background {background-color:#c20000;}
-        .negTwo-background {background-color:rgb(136, 0, 0);}
-        .zero-background {background-color:rgb(212, 216, 1);}
-        .one-background {background-color:#047D5C;}
-        .negNine-background {background-color:rgb(73, 73, 73);}
+        .negOne-background {
+            background-color: #c20000;
+        }
+
+        .negTwo-background {
+            background-color: rgb(136, 0, 0);
+        }
+
+        .zero-background {
+            background-color: rgb(212, 216, 1);
+        }
+
+        .one-background {
+            background-color: #047D5C;
+        }
+
+        .negNine-background {
+            background-color: rgb(73, 73, 73);
+        }
 
         /* for the explanation responses */
         .response-box {
-            background-color: #f0f0f0; /* Light gray background */
-            border: 1px solid #ccc; /* Gray border */
-            border-radius: 4px; /* Rounded corners */
-            padding: 10px; /* Padding inside the box */
-            margin-top: 10px; /* Space above the box */
-            font-family: Arial, sans-serif; /* Font style */
+            background-color: #f0f0f0;
+            /* Light gray background */
+            border: 1px solid #ccc;
+            /* Gray border */
+            border-radius: 4px;
+            /* Rounded corners */
+            padding: 10px;
+            /* Padding inside the box */
+            margin-top: 10px;
+            /* Space above the box */
+            font-family: Arial, sans-serif;
+            /* Font style */
         }
 
         /* for the ranking table */
         .explanation {
-            width:45%;
-            background-color:#fff;
+            width: 45%;
+            background-color: #fff;
         }
 
         .table td {
-            vertical-align: middle; /* Center-align the radio buttons */
+            vertical-align: middle;
+            /* Center-align the radio buttons */
         }
+
         .bg-dark-blue {
-            background-color: #003366; /* Dark blue */
-            color: white; /* Text color for dark backgrounds */
+            background-color: #003366;
+            /* Dark blue */
+            color: white;
+            /* Text color for dark backgrounds */
         }
+
         .bg-light-blue {
-            background-color: #99CCFF; /* Light blue */
+            background-color: #99CCFF;
+            /* Light blue */
         }
+
         .bg-light-pink {
-            background-color: #FFB2B2; /* Light pink */
+            background-color: #FFB2B2;
+            /* Light pink */
         }
+
         .bg-dark-pink {
-            background-color: #FF5C92; /* Dark pink */
-            color: white; /* Text color for dark backgrounds */
+            background-color: #FF5C92;
+            /* Dark pink */
+            color: white;
+            /* Text color for dark backgrounds */
         }
 
         /* Custom style to use upper-alpha (A, B, C) with a parenthesis */
         ol.custom-list {
             list-style-type: upper-alpha;
         }
+
         ol.custom-list li::marker {
             content: counter(list-item) ") ";
         }
 
+        .cultural-norms li {
+            list-style: decimal;
+        }
     </style>
 
     <!-- HIT START -->
@@ -288,45 +341,125 @@
             <div class="card">
                 <div class="card-header" id="instructionsHeading">
                     <h5 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#instructions" aria-expanded="true" aria-controls="instructions">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#instructions"
+                            aria-expanded="true" aria-controls="instructions">
                             Instructions (click to expand/collapse)
                         </button>
                     </h5>
                 </div>
-                <div class="collapse show" id="instructions" aria-labelledby="instructionsHeading" data-parent="#hitinfo">
+                <div class="collapse show" id="instructions" aria-labelledby="instructionsHeading"
+                    data-parent="#hitinfo">
                     <div class="card-body">
                         <div class="card-content">
-                            <p>Thanks for participating in this HIT qualifier! Please read the background, instructions, and examples below, then complete the HIT (10 questions). We are paying more for this qualifier to compensate for the time it takes to read through the instructions and examples carefully ($0.25 per HIT).</p>
+                            <p>Thanks for participating in this HIT qualifier! Please read the background, instructions,
+                                and examples below, then complete the HIT (10 questions). We are paying more for this
+                                qualifier to compensate for the time it takes to read through the instructions and
+                                examples carefully ($0.25 per HIT).</p>
 
                             <p>Please <b>DO NOT</b> re-take this qualification if you have already completed it.</p>
 
-                            <p>Background: In this qualification, you will be reading multiple choice questions about various role-playing scenarios and potential options on how an individual might respond to each situation. The questions are designed to test a user's Big 5 personality traits: <b>Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism</b>.</p>
+                            <p>Background: In this qualification, you will be reading multiple choice questions about
+                                various role-playing scenarios and potential options on how an individual might respond
+                                to each situation. The questions are designed to test a user's Big 5 personality traits:
+                                <b>Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism</b>.
+                            </p>
 
-                            <p>Here are definitions for each Big 5 personality trait: 
+                            <p>Here are definitions for each Big 5 personality trait:
                                 <li>
-                                    <b>Openness: </b> willingness to embrace new ideas, creativity, and diverse perspectives, often valuing individuality and innovation
+                                    <b>Openness: </b> willingness to embrace new ideas, creativity, and diverse
+                                    perspectives, often valuing individuality and innovation
                                 </li>
                                 <li>
-                                    <b>Conscientiousness: </b> strong sense of responsibility, organization, and a commitment to hard work and goal achievement, often reflecting the cultural emphasis on productivity and success
+                                    <b>Conscientiousness: </b> strong sense of responsibility, organization, and a
+                                    commitment to hard work and goal achievement, often reflecting the cultural emphasis
+                                    on productivity and success
                                 </li>
                                 <li>
-                                    <b>Extraversion: </b> sociability, assertiveness, and a preference for engaging in energetic, outward-focused activities, aligning with the cultural value placed on confidence and networking
+                                    <b>Extraversion: </b> sociability, assertiveness, and a preference for engaging in
+                                    energetic, outward-focused activities, aligning with the cultural value placed on
+                                    confidence and networking
                                 </li>
                                 <li>
-                                    <b>Agreeableness: </b> tendency to be compassionate, cooperative, and empathetic toward others, often valuing harmony and positive social interactions in personal and professional relationships
+                                    <b>Agreeableness: </b> tendency to be compassionate, cooperative, and empathetic
+                                    toward others, often valuing harmony and positive social interactions in personal
+                                    and professional relationships
                                 </li>
                                 <li>
-                                    <b>Neuroticism: </b> tendency toward emotional sensitivity, stress, and mood fluctuations, often in response to high-pressure situations and societal expectations of success
+                                    <b>Neuroticism: </b> tendency toward emotional sensitivity, stress, and mood
+                                    fluctuations, often in response to high-pressure situations and societal
+                                    expectations of success
                                 </li>
                             </p>
 
-                            <b><p class="mb-2">Main Instructions: You will be reading various multiple choice questions testing a user's personality. Each question is most closely linked to one of the Big 5 personality traits. Also, each option in a multiple-choice question reflects different levels of trait expression. You will need to first identify which trait each multiple choice question is testing and then rank the multiple choice options based on level of trait expression.</p></b>
+                            <p>Here are the 10 cultural norms for United States:
+                            <ul class="cultural-norms">
+                                <li>
+                                    Individualism is highly valued in the USA, with a strong emphasis on personal
+                                    freedom and self-reliance.
+                                </li>
+                                <li>
+                                    The American Dream encapsulates the belief that anyone, regardless of background,
+                                    can achieve success through hard work and determination.
+                                </li>
+                                <li>
+                                    A commitment to democracy and the principles of freedom and equality is a
+                                    fundamental aspect of American society.
+                                </li>
+                                <li>
+                                    Americans generally value innovation and entrepreneurship, often celebrating those
+                                    who take risks to create new ventures.
+                                </li>
+                                <li>
+                                    The culture places a significant emphasis on education and continuous personal
+                                    development as pathways to achieving one’s goals.
+                                </li>
+                                <li>
+                                    There is a strong sense of patriotism and pride in the country’s history, symbols,
+                                    and institutions.
+                                </li>
+                                <li>
+                                    Volunteerism and community service are important aspects of American life,
+                                    reflecting a commitment to helping others and improving society.
+                                </li>
+                                <li>
+                                    Diversity and multiculturalism are celebrated, with many Americans valuing the
+                                    cultural contributions of various ethnic groups.
+                                </li>
+                                <li>
+                                    The right to free speech and the expression of opinions are deeply ingrained in
+                                    American culture, with robust debates on a wide range of issues.
+                                </li>
+                                <li>
+                                    There is a strong focus on consumerism and the pursuit of material wealth, often
+                                    seen as indicators of success and status.
+                                </li>
+                            </ul>
+                            </p>
+
+                            <b>
+                                <p class="mb-2">Main Instructions: You will be reading various multiple choice questions
+                                    testing a user's personality. Each question is most closely linked to one of the Big
+                                    5 personality traits. Also, each option in a multiple-choice question reflects
+                                    different levels of trait expression. You will need to first identify which trait
+                                    each multiple choice question is testing and then rank the multiple choice options
+                                    based on level of trait expression.</p>
+                            </b>
                             <br>
-                            <p> Each question consists of two parts: </p>
-                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 1:</b> Please read the <b>question</b> and answer which personality trait the situation refers to (1 question).</div><br>
-                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 2:</b> Please read the <b>4 options</b> for the multiple choice question and rank in order of highest trait expression (4 questions).</p></div><br>
-                           
-                            <p class="mb-2" style="margin-left: 40px"><b>[Important!] You will be required to provide an explanation for each of your answers.</b></p>
+                            <p> Each question consists of three parts: </p>
+                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 1:</b> Please
+                                read the <b>question</b> and answer which personality trait the situation refers to (1
+                                question).</div><br>
+                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 2:</b> Please
+                                read the <b>4 options</b> for the multiple choice question and rank in order of highest
+                                trait expression (4 questions).</p>
+                            </div><br>
+                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 3:</b> Based
+                                on the question, please select the cultural norm from the drop down menu that closely
+                                resonates with the question.</p>
+                            </div><br>
+
+                            <p class="mb-2" style="margin-left: 40px"><b>[Important!] You will be required to provide an
+                                    explanation for each of your answers.</b></p>
                         </div>
                     </div>
                 </div>
@@ -336,7 +469,8 @@
             <div class="card">
                 <div class="card-header" id="mainExampleHeading">
                     <h5 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#mainExample" aria-expanded="true" aria-controls="mainExample">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#mainExample"
+                            aria-expanded="true" aria-controls="mainExample">
                             Example 1: Openness (click to expand/collapse)
                         </button>
                     </h5>
@@ -349,201 +483,317 @@
                             <!-- EXAMPLE MACRO END -->
 
                             <br>
-                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 1:</b> Please read the <b>question</b> and answer which personality trait the situation refers to:
+                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 1:</b> Please
+                                read the <b>question</b> and answer which personality trait the situation refers to:
                             </div>
                             <br>
                             <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;">
-                                <span class="concept_a">Question:</span> 
-                                <b>Imagine you're offered the chance to travel to a country with a culture completely different from your own. How excited are you to explore and immerse yourself in their customs and way of life?</b></div>
-                                    <span class="concept_c">Answers:</span> 
-                                    <ol><b>A) I might take the opportunity, but usually I feel more comfortable around my own culture. So, I am a bit nervous that I won't find people similar to me.</b></ol>
-                                    <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b></ol>
-                                    <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort zone.</b></ol>
-                                    <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to experience different cultures. </b></ol>
-                            
+                                <span class="concept_a">Question:</span>
+                                <b>Imagine you're offered the chance to travel to a country with a culture completely
+                                    different from your own. How excited are you to explore and immerse yourself in
+                                    their customs and way of life?</b>
+                            </div>
+                            <span class="concept_c">Answers:</span>
+                            <ol><b>A) I might take the opportunity, but usually I feel more comfortable around my own
+                                    culture. So, I am a bit nervous that I won't find people similar to me.</b></ol>
+                            <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b>
+                            </ol>
+                            <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my
+                                    comfort zone.</b></ol>
+                            <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity
+                                    to experience different cultures. </b></ol>
+
                             <div id="mainExample-1" class="question">
-                                <div class="question-header question-choice-container pl-5 mb-2 pt-2 pb-2 border-bottom">
+                                <div
+                                    class="question-header question-choice-container pl-5 mb-2 pt-2 pb-2 border-bottom">
                                     <div class="row row-12 pl-3 pt-2">
                                         <strong>1) Which personality trait does this Q&A test? </strong>
                                     </div>
                                     <div class="row-12 pt-1 btn-group-container col-5">
                                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                             <label class="btn btn-secondary btn-sm" for="O">
-                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_1" autocomplete="off" value="O" required>Openness
+                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_1"
+                                                    autocomplete="off" value="O" required>Openness
                                             </label>
                                             <label class="btn btn-secondary btn-sm" for="C">
-                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_2" autocomplete="off" value="C" required>Conscientiousness
+                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_2"
+                                                    autocomplete="off" value="C" required>Conscientiousness
                                             </label>
                                             <label class="btn btn-secondary btn-sm" for="E">
-                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_3" autocomplete="off" value="E" required>Extraversion
+                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_3"
+                                                    autocomplete="off" value="E" required>Extraversion
                                             </label>
                                             <label class="btn btn-secondary btn-sm" for="A">
-                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4" autocomplete="off" value="A" required>Agreeableness
+                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                                    autocomplete="off" value="A" required>Agreeableness
                                             </label>
                                             <label class="btn btn-secondary btn-sm" for="N">
-                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4" autocomplete="off" value="N" required>Neuroticism
+                                                <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                                    autocomplete="off" value="N" required>Neuroticism
                                             </label>
                                         </div>
                                     </div>
                                     <br>
                                     This question tests personality trait:
-                                        <button type="button" class="btn btn-secondary btn-sm btm-info one-background">Openness</button>.
+                                    <button type="button"
+                                        class="btn btn-secondary btn-sm btm-info one-background">Openness</button>.
                                     <br>
-                                    
+
                                     <b>Possible explanation: </b>
                                     <div class="response-box">
-                                        This question is testing how enthusiastic a person is towards new experiences and their willingness to engage with diverse cultures.
+                                        This question is testing how enthusiastic a person is towards new experiences
+                                        and their willingness to engage with diverse cultures.
                                     </div>
                                 </div>
                             </div>
-                            </div>
-
-                            <br>
-                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 2:</b> Please read the 4 options for the question and rank in order of highest trait expression: </div>
-                            <br>
-                            <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;"><span class="concept_a">Question:</span> <b>Imagine you're offered the chance to travel to a country with a culture completely different from your own. How excited are you to explore and immerse yourself in their customs and way of life?</b><br>
-                                <span class="concept_c">Answers:</span> 
-                                <ol><b>A) I might take the opportunity, but usually I feel more comfortable around my own culture. So, I am a bit nervous that I won't find people similar to me.</b></ol>
-                                <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b></ol>
-                                <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort zone.</b></ol>
-                                <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to experience different cultures. </b></ol>
-                            </div>
-                            <div class="container mt-4">
-                                <div class="row">
-                                    <div class="col offset-1 col-11">
-                                        <table class="table table-bordered table-sm" style="font-size:70%">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col" class="h6 text-primary" style="width: 10%">Multiple Choice Answers:</th> <!-- Reduced width -->
-                                                    <th scope="col" class="bg-dark-blue font-weight-bold" style="width:10%">Very High</th>
-                                                    <th scope="col" class="bg-light-blue font-weight-bold" style="width:10%">High</th>
-                                                    <th scope="col" class="bg-light-pink font-weight-bold" style="width:10%">Low</th>
-                                                    <th scope="col" class="bg-dark-pink font-weight-bold" style="width:10%">Very Low</th>
-                                                    <th scope="col" class="font-weight-bold"  style="width:25%">
-                                                        Explanation
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row" class="font-weight-bold">A</th>
-                                                    <td><input type="radio" name="very_high" disabled></td>
-                                                    <td><input type="radio" name="high" disabled></td>
-                                                    <td><input type="radio" name="low" checked></td>
-                                                    <td><input type="radio" name="very_low" disabled></td>
-                                                    <td class="explanation">Shows low levels of openness (but not lowest) because user might still take the opportunity</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row" class="font-weight-bold">B</th>
-                                                    <td><input type="radio" name="very_high" checked></td>
-                                                    <td><input type="radio" name="high" disabled></td>
-                                                    <td><input type="radio" name="low" disabled></td>
-                                                    <td><input type="radio" name="very_low" disabled></td>
-                                                    <td class="explanation">Shows highest level of openness; user is very willing to immerse in a different culture</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row" class="font-weight-bold">C</th>
-                                                    <td><input type="radio" name="very_high" disabled></td>
-                                                    <td><input type="radio" name="high" disabled></td>
-                                                    <td><input type="radio" name="low" disabled></td>
-                                                    <td><input type="radio" name="very_low" checked></td>
-                                                    <td class="explanation">Shows lowest levels of openness because user is more rigid/wants to stick with own culture</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row" class="font-weight-bold">D</th>
-                                                    <td><input type="radio" name="very_high" disabled></td>
-                                                    <td><input type="radio" name="high" checked ></td>
-                                                    <td><input type="radio" name="low" disabled></td>
-                                                    <td><input type="radio" name="very_low" disabled></td>
-                                                    <td class="explanation">Shows high levels of openness (but not highest) because user is initially somewhat hesitant</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
                         </div>
+
+                        <br>
+                        <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 2:</b> Please read
+                            the 4 options for the question and rank in order of highest trait expression: </div>
+                        <br>
+                        <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;"><span
+                                class="concept_a">Question:</span> <b>Imagine you're offered the chance to travel to a
+                                country with a culture completely different from your own. How excited are you to
+                                explore and immerse yourself in their customs and way of life?</b><br>
+                            <span class="concept_c">Answers:</span>
+                            <ol><b>A) I might take the opportunity, but usually I feel more comfortable around my own
+                                    culture. So, I am a bit nervous that I won't find people similar to me.</b></ol>
+                            <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b>
+                            </ol>
+                            <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my
+                                    comfort zone.</b></ol>
+                            <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity
+                                    to experience different cultures. </b></ol>
+                        </div>
+                        <div class="container mt-4">
+                            <div class="row">
+                                <div class="col offset-1 col-11">
+                                    <table class="table table-bordered table-sm" style="font-size:70%">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="h6 text-primary" style="width: 10%">Multiple
+                                                    Choice Answers:</th> <!-- Reduced width -->
+                                                <th scope="col" class="bg-dark-blue font-weight-bold" style="width:10%">
+                                                    Very High</th>
+                                                <th scope="col" class="bg-light-blue font-weight-bold"
+                                                    style="width:10%">High</th>
+                                                <th scope="col" class="bg-light-pink font-weight-bold"
+                                                    style="width:10%">Low</th>
+                                                <th scope="col" class="bg-dark-pink font-weight-bold" style="width:10%">
+                                                    Very Low</th>
+                                                <th scope="col" class="font-weight-bold" style="width:25%">
+                                                    Explanation
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row" class="font-weight-bold">A</th>
+                                                <td><input type="radio" name="very_high" disabled></td>
+                                                <td><input type="radio" name="high" disabled></td>
+                                                <td><input type="radio" name="low" checked></td>
+                                                <td><input type="radio" name="very_low" disabled></td>
+                                                <td class="explanation">Shows low levels of openness (but not lowest)
+                                                    because user might still take the opportunity</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="font-weight-bold">B</th>
+                                                <td><input type="radio" name="very_high" checked></td>
+                                                <td><input type="radio" name="high" disabled></td>
+                                                <td><input type="radio" name="low" disabled></td>
+                                                <td><input type="radio" name="very_low" disabled></td>
+                                                <td class="explanation">Shows highest level of openness; user is very
+                                                    willing to immerse in a different culture</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="font-weight-bold">C</th>
+                                                <td><input type="radio" name="very_high" disabled></td>
+                                                <td><input type="radio" name="high" disabled></td>
+                                                <td><input type="radio" name="low" disabled></td>
+                                                <td><input type="radio" name="very_low" checked></td>
+                                                <td class="explanation">Shows lowest levels of openness because user is
+                                                    more rigid/wants to stick with own culture</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="font-weight-bold">D</th>
+                                                <td><input type="radio" name="very_high" disabled></td>
+                                                <td><input type="radio" name="high" checked></td>
+                                                <td><input type="radio" name="low" disabled></td>
+                                                <td><input type="radio" name="very_low" disabled></td>
+                                                <td class="explanation">Shows high levels of openness (but not highest)
+                                                    because user is initially somewhat hesitant</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <br>
+                        <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Part 3:</b> With
+                            respect to the above question, please select a value from the dropdown below according to
+                            you which closely matches with one of the above mentioned cultural norms of USA
+                        </div>
+                        <br>
+                        <div class="mt-4">
+                            <div class="row w-100">
+                                <div class="col offset-1 col-11 w-100">
+                                    <div class="btn-group w-100">
+                                        <button class="btn btn-primary btn-lg dropdown-toggle w-100" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Please select cultural norm
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Individualism is highly valued in the USA, with a strong emphasis on
+                                                personal freedom and self-reliance.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                The American Dream encapsulates the belief that anyone, regardless of
+                                                background, can achieve success through hard work and determination.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                A commitment to democracy and the principles of freedom and equality is
+                                                a fundamental aspect of American society.
+                                            </button>
+                                            <button class="dropdown-item my-2" type="button">
+                                                Americans generally value innovation and entrepreneurship, often
+                                                celebrating those who take risks to create new ventures.
+                                            </button>
+                                            <button class="dropdown-item my-2" type="button">
+                                                The culture places a significant emphasis on education and continuous
+                                                personal development as pathways to achieving one’s goals.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                There is a strong sense of patriotism and pride in the country’s
+                                                history, symbols, and institutions.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Volunteerism and community service are important aspects of American
+                                                life, reflecting a commitment to helping others and improving society.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Diversity and multiculturalism are celebrated, with many Americans
+                                                valuing the cultural contributions of various ethnic groups.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                The right to free speech and the expression of opinions are deeply
+                                                ingrained in American culture, with robust debates on a wide range of
+                                                issues.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                There is a strong focus on consumerism and the pursuit of material
+                                                wealth, often seen as indicators of success and status.
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+            </div>
             <!-- MAIN EXAMPLE END -->
-        <!-- ACCORDION END -->
+            <!-- ACCORDION END -->
 
-        <!-- MTURK INPUT START -->
-        <div class="col-12 mt-3 mb-1 border-top">
+            <!-- MTURK INPUT START -->
+            <div class="col-12 mt-3 mb-1 border-top">
 
-            <form name='mturk_form' method='post' id='mturk_form' action='https://www.mturk.com/mturk/externalSubmit'>
-                <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
-                <input type='hidden' name='ee' id='ee'/>
+                <form name='mturk_form' method='post' id='mturk_form'
+                    action='https://www.mturk.com/mturk/externalSubmit'>
+                    <input type='hidden' value='' name='assignmentId' id='assignmentId' />
+                    <input type='hidden' name='ee' id='ee' />
 
-                <!-- QUESTION MACRO START -->
+                    <!-- QUESTION MACRO START -->
 
-                <!-- GOAL CATEGORY MACRO END -->
+                    <!-- GOAL CATEGORY MACRO END -->
 
-                <!-- GOAL CAT START -->
+                    <!-- GOAL CAT START -->
 
-                <div id="Part1Div" name="Part1Div" style="display:show">
-                    <br>
-                    <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT: <br>Part 1:</b> Please read the Q&A and answer which personality trait the situation refers to: <br>
-                    </div>
-                    <br>
-                            <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;">
-                                <span class="concept_a">Question:</span> 
-                                <b>You have just been invited to eat at a Vietnamese restaurant with some friends. But you have never had Vietnamese food. How do you feel?</b></div>
-                                    <span class="concept_c">Answers:</span> 
-                                    <ol><b>A) I prefer sticking to familiar foods and avoiding trying new ones.</b></ol>
-                                    <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b></ol>
-                                    <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort zone.</b></ol>
-                                    <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to experience different cultures. </b></ol>
-                            
-
-                                    <div id="mainExample-1" class="question">
-                                        <div class="question-header question-choice-container pl-5 mb-2 pt-2 pb-2 border-bottom">
-                                            <div class="row row-12 pl-3 pt-2">
-                                                <strong>1) Which personality trait does this Q&A test? </strong>
-                                            </div>
-                                            <div class="row-12 pt-1 btn-group-container col-5">
-                                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                                    <label class="btn btn-secondary btn-sm" for="O">
-                                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_1" autocomplete="off" value="O" required>Openness
-                                                    </label>
-                                                    <label class="btn btn-secondary btn-sm" for="C">
-                                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_2" autocomplete="off" value="C" required>Conscientiousness
-                                                    </label>
-                                                    <label class="btn btn-secondary btn-sm" for="E">
-                                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_3" autocomplete="off" value="E" required>Extraversion
-                                                    </label>
-                                                    <label class="btn btn-secondary btn-sm" for="A">
-                                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4" autocomplete="off" value="A" required>Agreeableness
-                                                    </label>
-                                                    <label class="btn btn-secondary btn-sm" for="N">
-                                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4" autocomplete="off" value="N" required>Neuroticism
-                                                    </label>
-                                                </div>
-                                            </div>
-
-        
-
-                    <!-- <button type="button" class="partButton" name="partButton" id="partButton"> Submit Part 1 </button> -->
-                </div>
-
-
-                </div>
-
-                <div id="Part2Div" name="Part2Div" style="display:show">
-                    <br>
-                    <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT: <br>Part 2:</b> Please read the 4 options for the question and rank in order of highest trait expression: <br>
-                    </div>
-                    <br>
-                    <span class="concept_a">Question:</span> 
-                    <b>You have just been invited to eat at a Vietnamese restaurant with some friends. But you have never had Vietnamese food. How do you feel?</b></div>
-                        <span class="concept_c">Answers:</span> 
+                    <div id="Part1Div" name="Part1Div" style="display:show">
+                        <br>
+                        <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT: <br>Part
+                                1:</b> Please read the Q&A and answer which personality trait the situation refers to:
+                            <br>
+                        </div>
+                        <br>
+                        <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;">
+                            <span class="concept_a">Question:</span>
+                            <b>You have just been invited to eat at a Vietnamese restaurant with some friends. But you
+                                have never had Vietnamese food. How do you feel?</b>
+                        </div>
+                        <span class="concept_c">Answers:</span>
                         <ol><b>A) I prefer sticking to familiar foods and avoiding trying new ones.</b></ol>
-                        <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b></ol>
-                        <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort zone.</b></ol>
-                        <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to experience different cultures. </b></ol>
-                
+                        <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b>
+                        </ol>
+                        <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort
+                                zone.</b></ol>
+                        <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to
+                                experience different cultures. </b></ol>
+
+
+                        <div id="mainExample-1" class="question">
+                            <div class="question-header question-choice-container pl-5 mb-2 pt-2 pb-2 border-bottom">
+                                <div class="row row-12 pl-3 pt-2">
+                                    <strong>1) Which personality trait does this Q&A test? </strong>
+                                </div>
+                                <div class="row-12 pt-1 btn-group-container col-5">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-secondary btn-sm" for="O">
+                                            <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_1"
+                                                autocomplete="off" value="O" required>Openness
+                                        </label>
+                                        <label class="btn btn-secondary btn-sm" for="C">
+                                            <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_2"
+                                                autocomplete="off" value="C" required>Conscientiousness
+                                        </label>
+                                        <label class="btn btn-secondary btn-sm" for="E">
+                                            <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_3"
+                                                autocomplete="off" value="E" required>Extraversion
+                                        </label>
+                                        <label class="btn btn-secondary btn-sm" for="A">
+                                            <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                                autocomplete="off" value="A" required>Agreeableness
+                                        </label>
+                                        <label class="btn btn-secondary btn-sm" for="N">
+                                            <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                                autocomplete="off" value="N" required>Neuroticism
+                                        </label>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- <button type="button" class="partButton" name="partButton" id="partButton"> Submit Part 1 </button> -->
+                            </div>
+
+
+                        </div>
+
+                        <div id="Part2Div" name="Part2Div" style="display:show">
+                            <br>
+                            <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT:
+                                    <br>Part 2:</b> Please read the 4 options for the question and rank in order of
+                                highest trait expression: <br>
+                            </div>
+                            <br>
+                            <span class="concept_a">Question:</span>
+                            <b>You have just been invited to eat at a Vietnamese restaurant with some friends. But you
+                                have never had Vietnamese food. How do you feel?</b>
+                        </div>
+                        <span class="concept_c">Answers:</span>
+                        <ol><b>A) I prefer sticking to familiar foods and avoiding trying new ones.</b></ol>
+                        <ol><b>B) I am extremely excited to meet new people and learn more about their culture! </b>
+                        </ol>
+                        <ol><b>C) I'm not too sure; I’d rather stick to what I know than step too far out of my comfort
+                                zone.</b></ol>
+                        <ol><b>D) I might be a bit nervous at first, but I think I'd really enjoy this opportunity to
+                                experience different cultures. </b></ol>
+
 
                         <div class="container mt-4">
                             <div class="row">
@@ -551,180 +801,531 @@
                                     <table class="table table-bordered table-sm" style="font-size:70%">
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="h6 text-primary" style="width: 10%">Multiple Choice Answers:</th>
-                                                <th scope="col" class="bg-dark-blue font-weight-bold" style="width:10%">Very High</th>
-                                                <th scope="col" class="bg-light-blue font-weight-bold" style="width:10%">High</th>
-                                                <th scope="col" class="bg-light-pink font-weight-bold" style="width:10%">Low</th>
-                                                <th scope="col" class="bg-dark-pink font-weight-bold" style="width:10%">Very Low</th>
-                                                <th scope="col" class="font-weight-bold" style="width:25%">Explanation</th>
+                                                <th scope="col" class="h6 text-primary" style="width: 10%">Multiple
+                                                    Choice Answers:</th>
+                                                <th scope="col" class="bg-dark-blue font-weight-bold" style="width:10%">
+                                                    Very High</th>
+                                                <th scope="col" class="bg-light-blue font-weight-bold"
+                                                    style="width:10%">High</th>
+                                                <th scope="col" class="bg-light-pink font-weight-bold"
+                                                    style="width:10%">Low</th>
+                                                <th scope="col" class="bg-dark-pink font-weight-bold" style="width:10%">
+                                                    Very Low</th>
+                                                <th scope="col" class="font-weight-bold" style="width:25%">Explanation
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <th scope="row" class="font-weight-bold">A</th>
-                                                <td><input type="radio" name="very_high_A" value="very_high"></td>
-                                                <td><input type="radio" name="high_A" value="high"></td>
-                                                <td><input type="radio" name="low_A" value="low"></td>
-                                                <td><input type="radio" name="very_low_A" value="very_low"></td>
-                                                <td><textarea name="explanation_A" rows="2" style="width: 100%;"></textarea></td>
+                                                <td><input type="radio" name="A" value="very_high"></td>
+                                                <td><input type="radio" name="A" value="high"></td>
+                                                <td><input type="radio" name="A" value="low"></td>
+                                                <td><input type="radio" name="A" value="very_low"></td>
+                                                <td><textarea name="explanation_A" rows="2" minlength="50"
+                                                        style="width: 100%;"></textarea></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row" class="font-weight-bold">B</th>
-                                                <td><input type="radio" name="very_high_B" value="very_high"></td>
-                                                <td><input type="radio" name="high_B" value="high"></td>
-                                                <td><input type="radio" name="low_B" value="low"></td>
-                                                <td><input type="radio" name="very_low_B" value="very_low"></td>
-                                                <td><textarea name="explanation_B" rows="2" style="width: 100%;"></textarea></td>
+                                                <td><input type="radio" name="B" value="very_high"></td>
+                                                <td><input type="radio" name="B" value="high"></td>
+                                                <td><input type="radio" name="B" value="low"></td>
+                                                <td><input type="radio" name="B" value="very_low"></td>
+                                                <td><textarea name="explanation_B" rows="2" minlength="50"
+                                                        style="width: 100%;"></textarea></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row" class="font-weight-bold">C</th>
-                                                <td><input type="radio" name="very_high_C" value="very_high"></td>
-                                                <td><input type="radio" name="high_C" value="high"></td>
-                                                <td><input type="radio" name="low_C" value="low"></td>
-                                                <td><input type="radio" name="very_low_C" value="very_low"></td>
-                                                <td><textarea name="explanation_C" rows="2" style="width: 100%;"></textarea></td>
+                                                <td><input type="radio" name="C" value="very_high"></td>
+                                                <td><input type="radio" name="C" value="high"></td>
+                                                <td><input type="radio" name="C" value="low"></td>
+                                                <td><input type="radio" name="C" value="very_low"></td>
+                                                <td><textarea name="explanation_C" rows="2" minlength="50"
+                                                        style="width: 100%;"></textarea></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row" class="font-weight-bold">D</th>
-                                                <td><input type="radio" name="very_high_D" value="very_high"></td>
-                                                <td><input type="radio" name="high_D" value="high"></td>
-                                                <td><input type="radio" name="low_D" value="low"></td>
-                                                <td><input type="radio" name="very_low_D" value="very_low"></td>
-                                                <td><textarea name="explanation_D" rows="2" style="width: 100%;"></textarea></td>
+                                                <td><input type="radio" name="D" value="very_high"></td>
+                                                <td><input type="radio" name="D" value="high"></td>
+                                                <td><input type="radio" name="D" value="low"></td>
+                                                <td><input type="radio" name="D" value="very_low"></td>
+                                                <td><textarea name="explanation_D" rows="2" minlength="50"
+                                                        style="width: 100%;"></textarea></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
-                        
-                </div>
+
+
+                        <br>
+
+                        <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT</b>
+                            <br><b>Part 3:</b> With respect to the above question, please select a value from the
+                            dropdown below according to you which closely matches with one of the above mentioned
+                            cultural norms of USA
+                        </div>
+                        <br>
+                        <div class="mt-4">
+                            <div class="row w-100">
+                                <div class="col offset-1 col-11 w-100">
+                                    <!-- <div class="btn-group w-100">
+                                        <button class="btn btn-primary btn-lg dropdown-toggle w-100" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Please select cultural norm
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Individualism is highly valued in the USA, with a strong emphasis on
+                                                personal freedom and self-reliance.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                The American Dream encapsulates the belief that anyone, regardless of
+                                                background, can achieve success through hard work and determination.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                A commitment to democracy and the principles of freedom and equality is
+                                                a fundamental aspect of American society.
+                                            </button>
+                                            <button class="dropdown-item my-2" type="button">
+                                                Americans generally value innovation and entrepreneurship, often
+                                                celebrating those who take risks to create new ventures.
+                                            </button>
+                                            <button class="dropdown-item my-2" type="button">
+                                                The culture places a significant emphasis on education and continuous
+                                                personal development as pathways to achieving one’s goals.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                There is a strong sense of patriotism and pride in the country’s
+                                                history, symbols, and institutions.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Volunteerism and community service are important aspects of American
+                                                life, reflecting a commitment to helping others and improving society.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                Diversity and multiculturalism are celebrated, with many Americans
+                                                valuing the cultural contributions of various ethnic groups.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                The right to free speech and the expression of opinions are deeply
+                                                ingrained in American culture, with robust debates on a wide range of
+                                                issues.
+                                            </button>
+                                            <button class="text-break dropdown-item my-2" type="button">
+                                                There is a strong focus on consumerism and the pursuit of material
+                                                wealth, often seen as indicators of success and status.
+                                            </button>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="" style="width: 750px;">
+                                        <select name="cultural-norms" style="width: 100%; padding: 8px 10px 8px 10px; background-color: #00aeef; color: black; border-radius: 10px;">
+                                            <option value="" class="text-break white bg-white">Please select a cultural norm</option>"
+                                            <option value="" class="text-break white bg-white">
+                                                Individualism is highly valued in the USA, with a strong emphasis on
+                                                personal freedom and self-reliance.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                The American Dream encapsulates the belief that anyone, regardless of
+                                                background, can achieve success through hard work and determination.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                A commitment to democracy and the principles of freedom and equality is
+                                                a fundamental aspect of American society.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                Americans generally value innovation and entrepreneurship, often
+                                                celebrating those who take risks to create new ventures.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                The culture places a significant emphasis on education and continuous
+                                                personal development as pathways to achieving one’s goals.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                There is a strong sense of patriotism and pride in the country’s
+                                                history, symbols, and institutions.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                Volunteerism and community service are important aspects of American
+                                                life, reflecting a commitment to helping others and improving society.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                Diversity and multiculturalism are celebrated, with many Americans
+                                                valuing the cultural contributions of various ethnic groups.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                The right to free speech and the expression of opinions are deeply
+                                                ingrained in American culture, with robust debates on a wide range of
+                                                issues.
+                                            </option>
+                                            <option value="" class="text-break white bg-white">
+                                                There is a strong focus on consumerism and the pursuit of material
+                                                wealth, often seen as indicators of success and status.
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <hr>
+                    <div id="Part1Div" name="Part1Div" style="display:show"></div>
+                    <br>
+                    <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT: <br>Part
+                            1:</b> Please read the Q&A and answer which personality trait the situation refers to:
+                        <br>
+                    </div>
+                    <br>
+                    <div style="border: 0px solid #000; padding: 10px 20px 10px 20px;">
+                        <span class="concept_a">Question:</span>
+                        <b>You are the principal of the high school and have been asked to give a speech at the
+                            celebration. How would you highlight the value of experiencing new environments and cultures
+                            as part of the armed forces?</b>
+                    </div>
+                    <span class="concept_c">Answers:</span>
+                    <ol><b>A) Experiencing new environments and cultures through the armed forces will greatly enrich
+                            our students' lives, opening their minds to diverse perspectives and fostering personal
+                            growth.</b></ol>
+                    <ol><b>B) I believe that the consistency of staying within our own culture and community can offer
+                            more comfort and predictability for our students' futures. </b>
+                    </ol>
+                    <ol><b>C) While new experiences can be valuable, staying close to familiar surroundings might
+                            provide a more stable and secure environment for our students.</b></ol>
+                    <ol><b>D) The opportunity to live in different countries will not only broaden our students'
+                            horizons but also enhance their adaptability and appreciation for global diversity.</b></ol>
+
+
+                    <div id="mainExample-1" class="question">
+                        <div class="question-header question-choice-container pl-5 mb-2 pt-2 pb-2 border-bottom">
+                            <div class="row row-12 pl-3 pt-2">
+                                <strong>1) Which personality trait does this Q&A test? </strong>
+                            </div>
+                            <div class="row-12 pt-1 btn-group-container col-5">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary btn-sm" for="O">
+                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_1"
+                                            autocomplete="off" value="O" required>Openness
+                                    </label>
+                                    <label class="btn btn-secondary btn-sm" for="C">
+                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_2"
+                                            autocomplete="off" value="C" required>Conscientiousness
+                                    </label>
+                                    <label class="btn btn-secondary btn-sm" for="E">
+                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_3"
+                                            autocomplete="off" value="E" required>Extraversion
+                                    </label>
+                                    <label class="btn btn-secondary btn-sm" for="A">
+                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                            autocomplete="off" value="A" required>Agreeableness
+                                    </label>
+                                    <label class="btn btn-secondary btn-sm" for="N">
+                                        <input class="btm-info" type="radio" name="me1_valid" id="me1_valid_4"
+                                            autocomplete="off" value="N" required>Neuroticism
+                                    </label>
+                                </div>
+                            </div>
+
+
+
+                            <!-- <button type="button" class="partButton" name="partButton" id="partButton"> Submit Part 1 </button> -->
+                        </div>
+                    </div>
+
+                    <div id="Part2Div" name="Part2Div" style="display:show">
+                        <br>
+                        <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT:
+                                <br>Part 2:</b> Please read the 4 options for the question and rank in order of
+                            highest trait expression: <br>
+                        </div>
+                        <br>
+                        <span class="concept_a">Question:</span>
+                        <b>You are the principal of the high school and have been asked to give a speech at the
+                            celebration. How would you highlight the value of experiencing new environments and cultures
+                            as part of the armed forces?</b>
+                    </div>
+                    <span class="concept_c">Answers:</span>
+                    <ol><b>A) Experiencing new environments and cultures through the armed forces will greatly enrich
+                            our students' lives, opening their minds to diverse perspectives and fostering personal
+                            growth.</b></ol>
+                    <ol><b>B) I believe that the consistency of staying within our own culture and community can offer
+                            more comfort and predictability for our students' futures. </b>
+                    </ol>
+                    <ol><b>C) While new experiences can be valuable, staying close to familiar surroundings might
+                            provide a more stable and secure environment for our students.</b></ol>
+                    <ol><b>D) The opportunity to live in different countries will not only broaden our students'
+                            horizons but also enhance their adaptability and appreciation for global diversity.</b></ol>
+
+
+                    <div class="container mt-4">
+                        <div class="row">
+                            <div class="col offset-1 col-11">
+                                <table class="table table-bordered table-sm" style="font-size:70%">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="h6 text-primary" style="width: 10%">Multiple
+                                                Choice Answers:</th>
+                                            <th scope="col" class="bg-dark-blue font-weight-bold" style="width:10%">
+                                                Very High</th>
+                                            <th scope="col" class="bg-light-blue font-weight-bold" style="width:10%">
+                                                High</th>
+                                            <th scope="col" class="bg-light-pink font-weight-bold" style="width:10%">Low
+                                            </th>
+                                            <th scope="col" class="bg-dark-pink font-weight-bold" style="width:10%">
+                                                Very Low</th>
+                                            <th scope="col" class="font-weight-bold" style="width:25%">Explanation
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="font-weight-bold">A</th>
+                                            <td><input type="radio" name="A" value="very_high"></td>
+                                            <td><input type="radio" name="A" value="high"></td>
+                                            <td><input type="radio" name="A" value="low"></td>
+                                            <td><input type="radio" name="A" value="very_low"></td>
+                                            <td><textarea name="explanation_A" rows="2" minlength="50"
+                                                    style="width: 100%;"></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="font-weight-bold">B</th>
+                                            <td><input type="radio" name="B" value="very_high"></td>
+                                            <td><input type="radio" name="B" value="high"></td>
+                                            <td><input type="radio" name="B" value="low"></td>
+                                            <td><input type="radio" name="B" value="very_low"></td>
+                                            <td><textarea name="explanation_B" rows="2" minlength="50"
+                                                    style="width: 100%;"></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="font-weight-bold">C</th>
+                                            <td><input type="radio" name="C" value="very_high"></td>
+                                            <td><input type="radio" name="C" value="high"></td>
+                                            <td><input type="radio" name="C" value="low"></td>
+                                            <td><input type="radio" name="C" value="very_low"></td>
+                                            <td><textarea name="explanation_C" rows="2" minlength="50"
+                                                    style="width: 100%;"></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="font-weight-bold">D</th>
+                                            <td><input type="radio" name="D" value="very_high"></td>
+                                            <td><input type="radio" name="D" value="high"></td>
+                                            <td><input type="radio" name="D" value="low"></td>
+                                            <td><input type="radio" name="D" value="very_low"></td>
+                                            <td><textarea name="explanation_D" rows="2" minlength="50"
+                                                    style="width: 100%;"></textarea>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div style="border: 5px solid #00aeef; padding: 10px 20px 10px 20px;"><b>Actual HIT</b>
+                        <br><b>Part 3:</b> With respect to the above question, please select a value from the
+                        dropdown below according to you which closely matches with one of the above mentioned
+                        cultural norms of USA
+                    </div>
+                    <br>
+                    <div class="mt-4">
+                        <div class="row w-100">
+                            <div class="col offset-1 col-11 w-100">
+                                <div class="btn-group w-100">
+                                    <button class="btn btn-primary btn-lg dropdown-toggle w-100" type="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Please select cultural norm
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            Individualism is highly valued in the USA, with a strong emphasis on
+                                            personal freedom and self-reliance.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            The American Dream encapsulates the belief that anyone, regardless of
+                                            background, can achieve success through hard work and determination.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            A commitment to democracy and the principles of freedom and equality is a
+                                            fundamental aspect of American society.
+                                        </button>
+                                        <button class="dropdown-item my-2" type="button">
+                                            Americans generally value innovation and entrepreneurship, often celebrating
+                                            those who take risks to create new ventures.
+                                        </button>
+                                        <button class="dropdown-item my-2" type="button">
+                                            The culture places a significant emphasis on education and continuous
+                                            personal development as pathways to achieving one’s goals.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            There is a strong sense of patriotism and pride in the country’s history,
+                                            symbols, and institutions.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            Volunteerism and community service are important aspects of American life,
+                                            reflecting a commitment to helping others and improving society.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            Diversity and multiculturalism are celebrated, with many Americans valuing
+                                            the cultural contributions of various ethnic groups.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            The right to free speech and the expression of opinions are deeply ingrained
+                                            in American culture, with robust debates on a wide range of issues.
+                                        </button>
+                                        <button class="text-break dropdown-item my-2" type="button">
+                                            There is a strong focus on consumerism and the pursuit of material wealth,
+                                            often seen as indicators of success and status.
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
-                <!-- GOAL CAT END -->
-
-                <!-- OPTIONAL FEEDBACK -->
-                <div class="row mt-5">
-                    <div class="col-8 offset-2 col-lg-6 offset-lg-3">
-                        <p>(Optional) Please let us know if anything was unclear, if you experienced any issues, or if you have any other feedback for us.</p>
-                        <textarea id="feedback" name="feedback" rows=3></textarea>
-                    </div>
-                </div>
-
-                <!-- SUBMIT BUTTON -->
-                <div class="row mt-5">
-                    <div class="col-2 offset-5">
-                        <input id="submitButton" onclick="getnext()" type="submit" value="Submit">
-                    </div>
-                </div>
-
-            </form>
-            <script language='Javascript'>turkSetAssignmentID();</script>
         </div>
-        <!-- MTURK INPUT END -->
+        <!-- GOAL CAT END -->
+
+        <!-- OPTIONAL FEEDBACK -->
+        <div class="row mt-5">
+            <div class="col-8 offset-2 col-lg-6 offset-lg-3">
+                <p>(Optional) Please let us know if anything was unclear, if you experienced any issues, or if you
+                    have any other feedback for us.</p>
+                <textarea id="feedback" name="feedback" rows=3></textarea>
+            </div>
+        </div>
+
+        <!-- SUBMIT BUTTON -->
+        <div class="row mt-5">
+            <div class="col-2 offset-5">
+                <input id="submitButton" onclick="getnext()" type="submit" value="Submit">
+            </div>
+        </div>
+
+        </form>
+        <script language='Javascript'>turkSetAssignmentID();</script>
+    </div>
+    <!-- MTURK INPUT END -->
 
     </div>
-<!-- HIT END -->
+    <!-- HIT END -->
 
-<!-- BOOSTRAP JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- BOOSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-<!-- for table -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- for table -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- HITPUB JS -->
-<script id="hitpub_js">
-    // TimeMe.js
-    (function () { var e, t; e = this, t = function () { var r = { startStopTimes: {}, idleTimeoutMs: 3e4, currentIdleTimeMs: 0, checkStateRateMs: 250, active: !1, idle: !1, currentPageName: "default-page-name", timeElapsedCallbacks: [], userLeftCallbacks: [], userReturnCallbacks: [], trackTimeOnElement: function (e) { var t = document.getElementById(e); t && (t.addEventListener("mouseover", function () { r.startTimer(e) }), t.addEventListener("mousemove", function () { r.startTimer(e) }), t.addEventListener("mouseleave", function () { r.stopTimer(e) }), t.addEventListener("keypress", function () { r.startTimer(e) }), t.addEventListener("focus", function () { r.startTimer(e) })) }, getTimeOnElementInSeconds: function (e) { var t = r.getTimeOnPageInSeconds(e); return t || 0 }, startTimer: function (e, t) { if (e || (e = r.currentPageName), void 0 === r.startStopTimes[e]) r.startStopTimes[e] = []; else { var n = r.startStopTimes[e], i = n[n.length - 1]; if (void 0 !== i && void 0 === i.stopTime) return } r.startStopTimes[e].push({ startTime: t || new Date, stopTime: void 0 }), r.active = !0, r.idle = !1 }, stopAllTimers: function () { for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++)r.stopTimer(e[t]) }, stopTimer: function (e, t) { e || (e = r.currentPageName); var n = r.startStopTimes[e]; void 0 !== n && 0 !== n.length && (void 0 === n[n.length - 1].stopTime && (n[n.length - 1].stopTime = t || new Date), r.active = !1) }, getTimeOnCurrentPageInSeconds: function () { return r.getTimeOnPageInSeconds(r.currentPageName) }, getTimeOnPageInSeconds: function (e) { var t = r.getTimeOnPageInMilliseconds(e); return void 0 === t ? void 0 : t / 1e3 }, getTimeOnCurrentPageInMilliseconds: function () { return r.getTimeOnPageInMilliseconds(r.currentPageName) }, getTimeOnPageInMilliseconds: function (e) { var t = r.startStopTimes[e]; if (void 0 !== t) { for (var n = 0, i = 0; i < t.length; i++) { var s = t[i].startTime, o = t[i].stopTime; void 0 === o && (o = new Date), n += o - s } return Number(n) } }, getTimeOnAllPagesInSeconds: function () { for (var e = [], t = Object.keys(r.startStopTimes), n = 0; n < t.length; n++) { var i = t[n], s = r.getTimeOnPageInSeconds(i); e.push({ pageName: i, timeOnPage: s }) } return e }, setIdleDurationInSeconds: function (e) { var t = parseFloat(e); if (!1 !== isNaN(t)) throw { name: "InvalidDurationException", message: "An invalid duration time (" + e + ") was provided." }; return r.idleTimeoutMs = 1e3 * e, this }, setCurrentPageName: function (e) { return r.currentPageName = e, this }, resetRecordedPageTime: function (e) { delete r.startStopTimes[e] }, resetAllRecordedPageTimes: function () { for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++)r.resetRecordedPageTime(e[t]) }, resetIdleCountdown: function () { r.idle && r.triggerUserHasReturned(), r.idle = !1, r.currentIdleTimeMs = 0 }, callWhenUserLeaves: function (e, t) { this.userLeftCallbacks.push({ callback: e, numberOfTimesToInvoke: t }) }, callWhenUserReturns: function (e, t) { this.userReturnCallbacks.push({ callback: e, numberOfTimesToInvoke: t }) }, triggerUserHasReturned: function () { if (!r.active) for (var e = 0; e < this.userReturnCallbacks.length; e++) { var t = this.userReturnCallbacks[e], n = t.numberOfTimesToInvoke; (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback()) } r.startTimer() }, triggerUserHasLeftPage: function () { if (r.active) for (var e = 0; e < this.userLeftCallbacks.length; e++) { var t = this.userLeftCallbacks[e], n = t.numberOfTimesToInvoke; (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback()) } r.stopAllTimers() }, callAfterTimeElapsedInSeconds: function (e, t) { r.timeElapsedCallbacks.push({ timeInSeconds: e, callback: t, pending: !0 }) }, checkState: function () { for (var e = 0; e < r.timeElapsedCallbacks.length; e++)r.timeElapsedCallbacks[e].pending && r.getTimeOnCurrentPageInSeconds() > r.timeElapsedCallbacks[e].timeInSeconds && (r.timeElapsedCallbacks[e].callback(), r.timeElapsedCallbacks[e].pending = !1); !1 === r.idle && r.currentIdleTimeMs > r.idleTimeoutMs ? (r.idle = !0, r.triggerUserHasLeftPage()) : r.currentIdleTimeMs += r.checkStateRateMs }, visibilityChangeEventName: void 0, hiddenPropName: void 0, listenForVisibilityEvents: function () { void 0 !== document.hidden ? (r.hiddenPropName = "hidden", r.visibilityChangeEventName = "visibilitychange") : void 0 !== document.mozHidden ? (r.hiddenPropName = "mozHidden", r.visibilityChangeEventName = "mozvisibilitychange") : void 0 !== document.msHidden ? (r.hiddenPropName = "msHidden", r.visibilityChangeEventName = "msvisibilitychange") : void 0 !== document.webkitHidden && (r.hiddenPropName = "webkitHidden", r.visibilityChangeEventName = "webkitvisibilitychange"), document.addEventListener(r.visibilityChangeEventName, function () { document[r.hiddenPropName] ? r.triggerUserHasLeftPage() : r.triggerUserHasReturned() }, !1), window.addEventListener("blur", function () { r.triggerUserHasLeftPage() }), window.addEventListener("focus", function () { r.triggerUserHasReturned() }), document.addEventListener("mousemove", function () { r.resetIdleCountdown() }), document.addEventListener("keyup", function () { r.resetIdleCountdown() }), document.addEventListener("touchstart", function () { r.resetIdleCountdown() }), window.addEventListener("scroll", function () { r.resetIdleCountdown() }), setInterval(function () { r.checkState() }, r.checkStateRateMs) }, websocket: void 0, websocketHost: void 0, setUpWebsocket: function (e) { if (window.WebSocket && e) { var t = e.websocketHost; try { r.websocket = new WebSocket(t), window.onbeforeunload = function () { r.sendCurrentTime(e.appId) }, r.websocket.onopen = function () { r.sendInitWsRequest(e.appId) }, r.websocket.onerror = function (e) { console && console.log("Error occurred in websocket connection: " + e) }, r.websocket.onmessage = function (e) { console && console.log(e.data) } } catch (e) { console && console.error("Failed to connect to websocket host.  Error:" + e) } } return this }, websocketSend: function (e) { r.websocket.send(JSON.stringify(e)) }, sendCurrentTime: function (e) { var t = { type: "INSERT_TIME", appId: e, timeOnPageMs: r.getTimeOnCurrentPageInMilliseconds(), pageName: r.currentPageName }; r.websocketSend(t) }, sendInitWsRequest: function (e) { var t = { type: "INIT", appId: e }; r.websocketSend(t) }, initialize: function (e) { var t = r.idleTimeoutMs || 30, n = r.currentPageName || "default-page-name", i = void 0, s = void 0; e && (t = e.idleTimeoutInSeconds || t, n = e.currentPageName || n, i = e.websocketOptions, s = e.initialStartTime), r.setIdleDurationInSeconds(t).setCurrentPageName(n).setUpWebsocket(i).listenForVisibilityEvents(), r.startTimer(void 0, s) } }; return r }, "undefined" != typeof module && module.exports ? module.exports = t() : "function" == typeof define && define.amd ? define([], function () { return e.TimeMe = t() }) : e.TimeMe = t() }).call(this);
+    <!-- HITPUB JS -->
+    <script id="hitpub_js">
+        // TimeMe.js
+        (function () { var e, t; e = this, t = function () { var r = { startStopTimes: {}, idleTimeoutMs: 3e4, currentIdleTimeMs: 0, checkStateRateMs: 250, active: !1, idle: !1, currentPageName: "default-page-name", timeElapsedCallbacks: [], userLeftCallbacks: [], userReturnCallbacks: [], trackTimeOnElement: function (e) { var t = document.getElementById(e); t && (t.addEventListener("mouseover", function () { r.startTimer(e) }), t.addEventListener("mousemove", function () { r.startTimer(e) }), t.addEventListener("mouseleave", function () { r.stopTimer(e) }), t.addEventListener("keypress", function () { r.startTimer(e) }), t.addEventListener("focus", function () { r.startTimer(e) })) }, getTimeOnElementInSeconds: function (e) { var t = r.getTimeOnPageInSeconds(e); return t || 0 }, startTimer: function (e, t) { if (e || (e = r.currentPageName), void 0 === r.startStopTimes[e]) r.startStopTimes[e] = []; else { var n = r.startStopTimes[e], i = n[n.length - 1]; if (void 0 !== i && void 0 === i.stopTime) return } r.startStopTimes[e].push({ startTime: t || new Date, stopTime: void 0 }), r.active = !0, r.idle = !1 }, stopAllTimers: function () { for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++)r.stopTimer(e[t]) }, stopTimer: function (e, t) { e || (e = r.currentPageName); var n = r.startStopTimes[e]; void 0 !== n && 0 !== n.length && (void 0 === n[n.length - 1].stopTime && (n[n.length - 1].stopTime = t || new Date), r.active = !1) }, getTimeOnCurrentPageInSeconds: function () { return r.getTimeOnPageInSeconds(r.currentPageName) }, getTimeOnPageInSeconds: function (e) { var t = r.getTimeOnPageInMilliseconds(e); return void 0 === t ? void 0 : t / 1e3 }, getTimeOnCurrentPageInMilliseconds: function () { return r.getTimeOnPageInMilliseconds(r.currentPageName) }, getTimeOnPageInMilliseconds: function (e) { var t = r.startStopTimes[e]; if (void 0 !== t) { for (var n = 0, i = 0; i < t.length; i++) { var s = t[i].startTime, o = t[i].stopTime; void 0 === o && (o = new Date), n += o - s } return Number(n) } }, getTimeOnAllPagesInSeconds: function () { for (var e = [], t = Object.keys(r.startStopTimes), n = 0; n < t.length; n++) { var i = t[n], s = r.getTimeOnPageInSeconds(i); e.push({ pageName: i, timeOnPage: s }) } return e }, setIdleDurationInSeconds: function (e) { var t = parseFloat(e); if (!1 !== isNaN(t)) throw { name: "InvalidDurationException", message: "An invalid duration time (" + e + ") was provided." }; return r.idleTimeoutMs = 1e3 * e, this }, setCurrentPageName: function (e) { return r.currentPageName = e, this }, resetRecordedPageTime: function (e) { delete r.startStopTimes[e] }, resetAllRecordedPageTimes: function () { for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++)r.resetRecordedPageTime(e[t]) }, resetIdleCountdown: function () { r.idle && r.triggerUserHasReturned(), r.idle = !1, r.currentIdleTimeMs = 0 }, callWhenUserLeaves: function (e, t) { this.userLeftCallbacks.push({ callback: e, numberOfTimesToInvoke: t }) }, callWhenUserReturns: function (e, t) { this.userReturnCallbacks.push({ callback: e, numberOfTimesToInvoke: t }) }, triggerUserHasReturned: function () { if (!r.active) for (var e = 0; e < this.userReturnCallbacks.length; e++) { var t = this.userReturnCallbacks[e], n = t.numberOfTimesToInvoke; (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback()) } r.startTimer() }, triggerUserHasLeftPage: function () { if (r.active) for (var e = 0; e < this.userLeftCallbacks.length; e++) { var t = this.userLeftCallbacks[e], n = t.numberOfTimesToInvoke; (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback()) } r.stopAllTimers() }, callAfterTimeElapsedInSeconds: function (e, t) { r.timeElapsedCallbacks.push({ timeInSeconds: e, callback: t, pending: !0 }) }, checkState: function () { for (var e = 0; e < r.timeElapsedCallbacks.length; e++)r.timeElapsedCallbacks[e].pending && r.getTimeOnCurrentPageInSeconds() > r.timeElapsedCallbacks[e].timeInSeconds && (r.timeElapsedCallbacks[e].callback(), r.timeElapsedCallbacks[e].pending = !1); !1 === r.idle && r.currentIdleTimeMs > r.idleTimeoutMs ? (r.idle = !0, r.triggerUserHasLeftPage()) : r.currentIdleTimeMs += r.checkStateRateMs }, visibilityChangeEventName: void 0, hiddenPropName: void 0, listenForVisibilityEvents: function () { void 0 !== document.hidden ? (r.hiddenPropName = "hidden", r.visibilityChangeEventName = "visibilitychange") : void 0 !== document.mozHidden ? (r.hiddenPropName = "mozHidden", r.visibilityChangeEventName = "mozvisibilitychange") : void 0 !== document.msHidden ? (r.hiddenPropName = "msHidden", r.visibilityChangeEventName = "msvisibilitychange") : void 0 !== document.webkitHidden && (r.hiddenPropName = "webkitHidden", r.visibilityChangeEventName = "webkitvisibilitychange"), document.addEventListener(r.visibilityChangeEventName, function () { document[r.hiddenPropName] ? r.triggerUserHasLeftPage() : r.triggerUserHasReturned() }, !1), window.addEventListener("blur", function () { r.triggerUserHasLeftPage() }), window.addEventListener("focus", function () { r.triggerUserHasReturned() }), document.addEventListener("mousemove", function () { r.resetIdleCountdown() }), document.addEventListener("keyup", function () { r.resetIdleCountdown() }), document.addEventListener("touchstart", function () { r.resetIdleCountdown() }), window.addEventListener("scroll", function () { r.resetIdleCountdown() }), setInterval(function () { r.checkState() }, r.checkStateRateMs) }, websocket: void 0, websocketHost: void 0, setUpWebsocket: function (e) { if (window.WebSocket && e) { var t = e.websocketHost; try { r.websocket = new WebSocket(t), window.onbeforeunload = function () { r.sendCurrentTime(e.appId) }, r.websocket.onopen = function () { r.sendInitWsRequest(e.appId) }, r.websocket.onerror = function (e) { console && console.log("Error occurred in websocket connection: " + e) }, r.websocket.onmessage = function (e) { console && console.log(e.data) } } catch (e) { console && console.error("Failed to connect to websocket host.  Error:" + e) } } return this }, websocketSend: function (e) { r.websocket.send(JSON.stringify(e)) }, sendCurrentTime: function (e) { var t = { type: "INSERT_TIME", appId: e, timeOnPageMs: r.getTimeOnCurrentPageInMilliseconds(), pageName: r.currentPageName }; r.websocketSend(t) }, sendInitWsRequest: function (e) { var t = { type: "INIT", appId: e }; r.websocketSend(t) }, initialize: function (e) { var t = r.idleTimeoutMs || 30, n = r.currentPageName || "default-page-name", i = void 0, s = void 0; e && (t = e.idleTimeoutInSeconds || t, n = e.currentPageName || n, i = e.websocketOptions, s = e.initialStartTime), r.setIdleDurationInSeconds(t).setCurrentPageName(n).setUpWebsocket(i).listenForVisibilityEvents(), r.startTimer(void 0, s) } }; return r }, "undefined" != typeof module && module.exports ? module.exports = t() : "function" == typeof define && define.amd ? define([], function () { return e.TimeMe = t() }) : e.TimeMe = t() }).call(this);
 
-    TimeMe.initialize({
-        currentPageName: "task",
-        idleTimeoutInSeconds: 30
-    });
-
-    $(document).ready(function() {
-        $('#submitButton').click(function () {
-            try {
-                $('input[name=ee]').attr('value', TimeMe.getTimeOnCurrentPageInSeconds());
-            } catch {
-            }
-            return true;
+        TimeMe.initialize({
+            currentPageName: "task",
+            idleTimeoutInSeconds: 30
         });
-    });
 
-    $(document).ready(part1complete);
-    $(document).ready(show_hide);
-
-    function show_hide() {
-        $('input[name="q3_valid"]').change( function() {
-            if (this.value == 1) {
-                $("#JustifyDiv").show();
-                // $('#JustifyDiv').prop('required',true);
-                $("input[type='radio'][name='q4_valid']").prop('required',true);
-            } else {
-                $("#JustifyDiv").hide();
-                $("#InfoDiv").hide();
-                // $('#JustifyDiv').prop('required',false);
-                $("input[type='radio'][name='q4_valid']").prop('required',false);
-                $("input[type='radio'][name='q5_valid']").prop('required',false);
-            }
+        $(document).ready(function () {
+            $('#submitButton').click(function () {
+                try {
+                    $('input[name=ee]').attr('value', TimeMe.getTimeOnCurrentPageInSeconds());
+                } catch {
+                }
+                return true;
+            });
         });
-        $('input[name="q4_valid"]').change( function() {
-            if (this.value == 1) {
-                $("#InfoDiv").show();
-                // $('#InfoDiv').prop('required',true);
-                $("input[type='radio'][name='q5_valid']").prop('required',true);
-            } else {
-                $("#InfoDiv").hide();
-                // $('#InfoDiv').prop('required',false);
-                $("input[type='radio'][name='q5_valid']").prop('required',false);
-            }
+
+        $(document).ready(part1complete);
+        $(document).ready(show_hide);
+
+        function show_hide() {
+            $('input[name="q3_valid"]').change(function () {
+                if (this.value == 1) {
+                    $("#JustifyDiv").show();
+                    // $('#JustifyDiv').prop('required',true);
+                    $("input[type='radio'][name='q4_valid']").prop('required', true);
+                } else {
+                    $("#JustifyDiv").hide();
+                    $("#InfoDiv").hide();
+                    // $('#JustifyDiv').prop('required',false);
+                    $("input[type='radio'][name='q4_valid']").prop('required', false);
+                    $("input[type='radio'][name='q5_valid']").prop('required', false);
+                }
+            });
+            $('input[name="q4_valid"]').change(function () {
+                if (this.value == 1) {
+                    $("#InfoDiv").show();
+                    // $('#InfoDiv').prop('required',true);
+                    $("input[type='radio'][name='q5_valid']").prop('required', true);
+                } else {
+                    $("#InfoDiv").hide();
+                    // $('#InfoDiv').prop('required',false);
+                    $("input[type='radio'][name='q5_valid']").prop('required', false);
+                }
+            });
+        }
+
+        function part1complete() {
+            $('#partButton').click(function () {
+                var q1_valid_sel = $("input[type='radio'][name='q1_valid']:checked");
+                var q2_valid_sel = $("input[type='radio'][name='q2_valid']:checked");
+
+                if (q1_valid_sel.length > 0 && q2_valid_sel.length > 0) {
+                    setTimeout(function () {
+                        $("#Part1Div").hide();
+                        $("#TestsDiv").show(); // show the rest
+                    }, 1000);
+                } else {
+                    alert("You must complete the questions in Part 1 in order to proceed.");
+                }
+
+            });
+        }
+
+        // Ensure only one "Low", "Very High", etc., is selected across all rows
+        const radioGroups = document.querySelectorAll('input[type="radio"]');
+        const selectedValues = {};
+
+        radioGroups.forEach(radio => {
+            radio.addEventListener('change', function () {
+                // Get the selected value and name of the current radio
+                const value = this.value;
+                const name = this.name;
+
+                // Loop through all radios and disable others with the same value
+                radioGroups.forEach(r => {
+                    if (r !== this && r.value === value) {
+                        r.checked = false;
+                    }
+                });
+
+                // Track selected values to prevent duplicate selections
+                if (selectedValues[value]) {
+                    selectedValues[value].checked = false;  // Uncheck previous
+                }
+                selectedValues[value] = this;  // Store the new selection
+            });
         });
-    }
 
-    function part1complete() {
-        $('#partButton').click(function () {
-            var q1_valid_sel = $("input[type='radio'][name='q1_valid']:checked");
-            var q2_valid_sel = $("input[type='radio'][name='q2_valid']:checked");
+    </script>
+</body>
 
-            if( q1_valid_sel.length > 0 && q2_valid_sel.length > 0) {
-                setTimeout(function() {
-                    $("#Part1Div").hide();
-                    $("#TestsDiv").show(); // show the rest
-                }, 1000);
-            } else {
-                alert("You must complete the questions in Part 1 in order to proceed.");
-            }
-
-        });
-    }
-
-    // Ensure only one "Low", "Very High", etc., is selected across all rows
-    const radioGroups = document.querySelectorAll('input[type="radio"]');
-                        const selectedValues = {};
-                        
-                        radioGroups.forEach(radio => {
-                            radio.addEventListener('change', function() {
-                                // Get the selected value and name of the current radio
-                                const value = this.value;
-                                const name = this.name;
-                        
-                                // Loop through all radios and disable others with the same value
-                                radioGroups.forEach(r => {
-                                    if (r !== this && r.value === value) {
-                                        r.checked = false;
-                                    }
-                                });
-                        
-                                // Track selected values to prevent duplicate selections
-                                if (selectedValues[value]) {
-                                    selectedValues[value].checked = false;  // Uncheck previous
-                                }
-                                selectedValues[value] = this;  // Store the new selection
-    });
-});
-
-</script>
+</html>
