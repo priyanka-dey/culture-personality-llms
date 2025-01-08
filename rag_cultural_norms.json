@@ -1,0 +1,230 @@
+{
+    "cultural-norms": [
+        {
+            "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in United States.",
+            "country": "United States",
+            "norms": [
+                {
+                    "id": 1,
+                    "text": "1. Americans place a high value on earned status, which is achieved through hard work, individual effort, and self-reliance."
+                },
+                {
+                    "id": 2,
+                    "text": "2. The pursuit of happiness is a deeply ingrained ideal in American culture, with individuals striving to find fulfillment and contentment in life."
+                },
+                {
+                    "id": 3,
+                    "text": "3. Americans are encouraged to be autonomous and independent, taking personal responsibility for their own success and well-being."
+                },
+                {
+                    "id": 4,
+                    "text": "4. The concept of \"fair play\" is deeply rooted in American culture, with individuals striving to compete fairly and honestly in all aspects of life."
+                },
+                {
+                    "id": 5,
+                    "text": "5. Recreational activities are seen as essential to a healthy and fulfilling life, with Americans prioritizing activities that promote physical and mental well-being."
+                },
+                {
+                    "id": 6,
+                    "text": "6. Americans value honesty and frankness in all interactions, with a strong emphasis on transparency and open communication."
+                },
+                {
+                    "id": 7,
+                    "text": "7. Prestige and respect are highly valued in American society, with individuals seeking to earn their place through hard work and achievement."
+                },
+                {
+                    "id": 8,
+                    "text": "8. The idea of \"self-made\" is deeply ingrained in American culture, with many individuals believing that their success is solely the result of their own efforts and abilities."
+                },
+                {
+                    "id": 9,
+                    "text": "9. Americans are encouraged to be competitive and driven, with a strong emphasis on achievement and success in all areas of life."
+                },
+                {
+                    "id": 10,
+                    "text": "10. The concept of \"meritocracy\" is deeply rooted in American culture, with individuals believed to be rewarded based on their individual merits and abilities, rather than their social status or background."
+                }
+            ]
+        },
+        {
+            "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in India.",
+            "country": "India",
+            "norms": [
+                {
+                    "id": 1,
+                    "text": "1. In India, personal space is not prioritized, and physical proximity is often seen as a sign of camaraderie and friendship."
+                },
+                {
+                    "id": 2,
+                    "text": "2. The concept of \"duality in thinking\" is deeply ingrained in Indian culture, where contradictions between traditional and modern values are common."
+                },
+                {
+                    "id": 3,
+                    "text": "3. Indian families often live together in the same house, blurring the lines between personal and public spaces."
+                },
+                {
+                    "id": 4,
+                    "text": "4. The idea of \"shame\" is closely tied to privacy in Indian culture, and even small acts can be considered shameful."
+                },
+                {
+                    "id": 5,
+                    "text": "5. In India, family and community ties are extremely strong, and individual choices are often influenced by these collective expectations."
+                },
+                {
+                    "id": 6,
+                    "text": "6. Indians have a unique approach to time, where punctuality is not a priority, and flexibility is often valued over strict schedules."
+                },
+                {
+                    "id": 7,
+                    "text": "7. The concept of \"izzat\" (honor) is deeply ingrained in Indian culture, and individuals are expected to maintain their family's reputation and honor."
+                },
+                {
+                    "id": 8,
+                    "text": "8. Indian society is characterized by a strong sense of hierarchy, with respect for elders and authority figures being deeply ingrained."
+                },
+                {
+                    "id": 9,
+                    "text": "9. The idea of \"saving face\" is crucial in Indian culture, where avoiding embarrassment or shame is a top priority."
+                },
+                {
+                    "id": 10,
+                    "text": "10. Indians have a strong cultural heritage that emphasizes the importance of social relationships and community ties, often prioritizing these over individual interests."
+                }
+            ]
+        },
+        {
+            "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in South Africa.",
+            "country": "South Africa",
+            "norms": [
+                {
+                    "id": 1,
+                    "text": "1. \"In South Africa, the concept of Ubuntu, which emphasizes the interconnectedness of humanity, is deeply ingrained in the culture, fostering a sense of community and shared responsibility among individuals.\""
+                },
+                {
+                    "id": 2,
+                    "text": "2. \"The struggle for equality and justice that defined the anti-apartheid movement continues to shape the lives of South Africans, who tirelessly work towards a more equitable society for all.\""
+                },
+                {
+                    "id": 3,
+                    "text": "3. \"For many South Africans, traditional African values of respect for elders, communal living, and moral codes play a vital role in shaping their personal and collective identities.\""
+                },
+                {
+                    "id": 4,
+                    "text": "4. \"The rich tapestry of South Africa's cultural diversity is reflected in the many languages spoken, with 11 official languages recognized by the government, each contributing to the country's unique cultural heritage.\""
+                },
+                {
+                    "id": 5,
+                    "text": "5. \"In South Africa, the importance of family and community ties is deeply rooted in the culture, with extended families often playing a crucial role in supporting one another through life's challenges.\""
+                },
+                {
+                    "id": 6,
+                    "text": "6. \"The concept of 'umuntu ngumuntu ngabantu' (a person is a person because of other people) is a powerful expression of the interconnectedness of humanity in South African culture.\""
+                },
+                {
+                    "id": 7,
+                    "text": "7. \"South Africa's history of racial tension and inequality has left a lasting impact on the lives of many individuals, who continue to work towards healing the wounds of the past and building a more inclusive society.\""
+                },
+                {
+                    "id": 8,
+                    "text": "8. \"For many South Africans, the pursuit of economic empowerment and social justice is deeply intertwined with the struggle for human dignity and respect, which is enshrined in the Constitution.\""
+                },
+                {
+                    "id": 9,
+                    "text": "9. \"The vibrant arts and cultural scene in South Africa reflects the country's rich cultural heritage, with traditional music, dance, and visual arts continuing to play an important role in the lives of many individuals.\""
+                },
+                {
+                    "id": 10,
+                    "text": "10. \"In South Africa, the values of resilience, adaptability, and forgiveness are deeply ingrained in the culture, allowing individuals to navigate the challenges of a rapidly changing society with hope and optimism.\""
+                }
+            ]
+        },
+        {
+            "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in Brazil.",
+            "country": "Brazil",
+            "norms": [
+                {
+                    "id": 1,
+                    "text": "1. **Conformity and Adaptation**: Brazilians tend to accept situations as given, without questioning their causes, and try to solve problems through improvisation."
+                },
+                {
+                    "id": 2,
+                    "text": "2. **Jeitinho**: The concept of \"jeitinho\" refers to creative ingenuity in rapidly achieving short-term solutions to problems, which is an essential aspect of Brazilian behavior."
+                },
+                {
+                    "id": 3,
+                    "text": "3. **Family Ties**: Family is a highly valued institution in Brazil, with a strong emphasis on family ties, kinship, and solidarity."
+                },
+                {
+                    "id": 4,
+                    "text": "4. **Cultural Diversity**: Brazil's cultural diversity is reflected in its language, cuisine, music, and traditional practices, which are shaped by African, European, and indigenous influences."
+                },
+                {
+                    "id": 5,
+                    "text": "5. **Racial Harmony**: Despite racial prejudice, Brazilians have a unique attitude towards race, with a focus on mixing and a lack of emphasis on color as a symbol of superiority or inferiority."
+                },
+                {
+                    "id": 6,
+                    "text": "6. **Importance of Social Networks**: Social networks and solidarity campaigns are essential for survival, particularly for low-income families."
+                },
+                {
+                    "id": 7,
+                    "text": "7. **Flexibility and Resilience**: Brazilians are known for their adaptability and ability to cope with challenging situations, which is reflected in their attitude towards life and their ability to find solutions to problems."
+                },
+                {
+                    "id": 8,
+                    "text": "8. **Emphasis on Intimacy**: Social life in Brazil is often characterized by a strong emphasis on intimate relationships, with many Brazilians prioritizing family and social connections over formal or professional relationships."
+                },
+                {
+                    "id": 9,
+                    "text": "9. **Love of Luxury and Sensuality**: Brazilians are known for their love of luxury, sensuality, and celebration, which is reflected in their music, dance, and traditional practices."
+                },
+                {
+                    "id": 10,
+                    "text": "10. **Importance of Personal Relationships**: Personal relationships are highly valued in Brazilian culture, with a focus on building strong connections with family, friends, and community members."
+                }
+            ]
+        },
+        {
+            "gpt4-o prompt": "Provide me 10 unique sentences highlighting the core values/important aspects of individuals living in Japan.",
+            "country": "Japan",
+            "norms": [
+                {
+                    "id": 1,
+                    "text": "1. **Harmony (Wa)**: The concept of harmony is deeply ingrained in Japanese culture. It refers to the idea of living in balance and harmony with others, and with nature. This value is considered essential for maintaining social cohesion and stability."
+                },
+                {
+                    "id": 2,
+                    "text": "2. **Individualism/Collectivism**: Japanese individuals prioritize both individuality and collectivism. They value personal autonomy and self-expression, but also prioritize the well-being of the group and the community."
+                },
+                {
+                    "id": 3,
+                    "text": "3. **Confucianism**: Confucianism plays a significant role in shaping Japanese values and behavior. It emphasizes the importance of social hierarchy, respect for authority, and self-cultivation."
+                },
+                {
+                    "id": 4,
+                    "text": "4. **Respect for tradition**: Japanese individuals place a high value on tradition and respect for the past. This is reflected in their cultural practices, customs, and social norms."
+                },
+                {
+                    "id": 5,
+                    "text": "5. **Social cohesion**: Japan is a collectivist society, and individuals prioritize maintaining social harmony and relationships with others."
+                },
+                {
+                    "id": 6,
+                    "text": "6. **Self-cultivation**: Japanese individuals value self-cultivation and personal growth, which is reflected in their emphasis on education, discipline, and self-reflection."
+                },
+                {
+                    "id": 7,
+                    "text": "7. **Group-oriented behavior**: Japanese individuals are often group-oriented, prioritizing the needs of the group over individual interests."
+                },
+                {
+                    "id": 8,
+                    "text": "8. **Hierarchy and social status**: Japan has a hierarchical society, and individuals are aware of their social status and position within the social hierarchy."
+                },
+                {
+                    "id": 9,
+                    "text": "9. **Nature and the environment**: Japanese individuals have a deep respect for nature and the environment, reflecting their cultural values and spiritual traditions."
+                }
+            ]
+        }
+    ]
+}
