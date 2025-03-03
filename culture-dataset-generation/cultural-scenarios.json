@@ -228,5 +228,1156 @@
                 {"id": 108, "norm-id": 10, "text": "A group of friends regularly checks in on a sick or elderly neighbor, offering help and companionship."},
                 {"id": 109, "norm-id": 10, "text": "Parents actively engage in their children’s school activities, attending meetings and supporting events."},
                 {"id": 110, "norm-id": 10, "text": "Community members organize and participate in local sports teams and recreational activities."}
+            ]
+        },
+        {
+            "gpt4-o prompt": "A major cultural norm in {country} is {cultural norm}. I would like to generate some example scenarios showing this cultural norm in {country}. Here are two example scenarios for norm 'Individualism is highly valued in the USA, with a strong emphasis on personal freedom and self-reliance' in USA: {Jane decides to negotiate her salary and benefits during her job interview, emphasizing her unique skills and achievements that justify a higher compensation package.} {Mark proudly shares his personal project on social media, showcasing the skills and hard work he put into creating a successful startup from scratch.}: Please generate 10 scenarios for the norm {norm} in country {country}, detailing each scenario with up to 3 sentences. Please refrain from stating the cultural norm in the scenario.",
+            "country": "Brazil",
+            "scenarios": [
+                {
+                    "id": 1,
+                    "norm-id": 1,
+                    "text": "Carlos, a young professional, chooses to move back to his hometown to be closer to his aging parents. Despite a lucrative job offer in another city, he values the importance of being near family and helping care for them."
+                },
+                {
+                    "id": 2,
+                    "norm-id": 1,
+                    "text": "During a family gathering, Maria spends the entire weekend with her extended family, including cousins, grandparents, and siblings. She actively participates in preparing meals, sharing stories, and maintaining strong connections with her relatives, as family time is a key priority in her life."
+                },
+                {
+                    "id": 3,
+                    "norm-id": 1,
+                    "text": "After graduating from college, Ana decides to live with her parents rather than move into her own apartment. She enjoys the comfort of having daily meals with her family and loves helping her younger siblings with their schoolwork."
+                },
+                {
+                    "id": 4,
+                    "norm-id": 1,
+                    "text": "João, a businessman, frequently makes time to visit his grandmother every weekend, despite his busy work schedule. He believes in maintaining a close relationship with her and values the advice and wisdom she shares with him."
+                },
+                {
+                    "id": 5,
+                    "norm-id": 1,
+                    "text": "When Pedro’s sister falls ill, he takes a week off from work to stay with her and help care for her children. The rest of the family also steps in, organizing shifts to support her recovery and ensure everything runs smoothly at home."
+                },
+                {
+                    "id": 6,
+                    "norm-id": 1,
+                    "text": "Luciana organizes a surprise birthday party for her mother, inviting not only immediate family but also distant relatives who live in different parts of the country. For Luciana, this gathering is an important way to celebrate family milestones together."
+                },
+                {
+                    "id": 7,
+                    "norm-id": 1,
+                    "text": "After the birth of their first child, Felipe and his wife move in with Felipe’s parents for a few months. They appreciate the help and support from their parents during this new stage of life, especially with childcare and daily tasks."
+                },
+                {
+                    "id": 8,
+                    "norm-id": 1,
+                    "text": "Rafael, who works abroad, ensures that he video calls his family in Brazil every Sunday. Even from a distance, he makes sure to stay involved in their lives, discussing everything from daily happenings to big family decisions."
+                },
+                {
+                    "id": 9,
+                    "norm-id": 1,
+                    "text": "Every year, Sofia’s family reunites at her grandparents’ countryside home for a traditional holiday celebration. The event is filled with family games, cooking together, and storytelling, strengthening the bonds between the generations."
+                },
+                {
+                    "id": 10,
+                    "norm-id": 1,
+                    "text": "When Daniela’s uncle loses his job, her entire family comes together to offer financial and emotional support. Each family member contributes in different ways, helping him get back on his feet while making sure he feels valued and supported."
+                },
+                {
+                    "id": 21,
+                    "norm-id": 2,
+                    "text": "When Sofia’s friend from abroad visits Brazil for the first time, she invites him to stay at her home for the entire week, offering home-cooked meals and taking him on tours around her city."
+                },
+                {
+                    "id": 22,
+                    "norm-id": 2,
+                    "text": "Marcos meets a traveler who got lost while looking for a local landmark, and instead of just giving directions, he offers to accompany them and later invites them for a coffee at his home."
+                },
+                {
+                    "id": 23,
+                    "norm-id": 2,
+                    "text": "Ana hosts a neighborhood barbecue and opens her doors to everyone, including people she doesn’t know well, ensuring everyone feels included and offering food and drinks throughout the event."
+                },
+                {
+                    "id": 24,
+                    "norm-id": 2,
+                    "text": "When João’s new colleague moves to the city, he not only helps her find an apartment but also invites her to his home for dinner to introduce her to his family and friends."
+                },
+                {
+                    "id": 25,
+                    "norm-id": 2,
+                    "text": "Carla loves to host gatherings at her house, often inviting friends, family, and even new acquaintances over to share meals and spend time together, making sure everyone feels welcome."
+                },
+                {
+                    "id": 26,
+                    "norm-id": 2,
+                    "text": "During Carnival, Pedro offers his apartment to friends who need a place to stay, going out of his way to make sure they are comfortable and have everything they need for the festivities."
+                },
+                {
+                    "id": 27,
+                    "norm-id": 2,
+                    "text": "Lucas encounters a group of tourists at a local market who are unsure of where to go next, so he offers to guide them around town and later invites them to a family lunch."
+                },
+                {
+                    "id": 28,
+                    "norm-id": 2,
+                    "text": "Maria meets a new family that just moved into the neighborhood and immediately invites them over for dinner, cooking a traditional Brazilian meal to help them feel at home."
+                },
+                {
+                    "id": 29,
+                    "norm-id": 2,
+                    "text": "When Daniela hears that her neighbor’s relatives are coming to visit from another city, she bakes a cake and brings it over to their house to welcome the guests."
+                },
+                {
+                    "id": 30,
+                    "norm-id": 2,
+                    "text": "After attending a work conference, Thiago invites his international colleagues to his home for a relaxed evening, serving traditional Brazilian food and sharing stories from his country’s culture."
+                },
+                {
+                    "id": 31,
+                    "norm-id": 3,
+                    "text": "During Carnival, Beatriz and her friends spend months preparing their costumes and choreography, excited to participate in the parades and share the vibrant energy of the festivities with others."
+                },
+                {
+                    "id": 32,
+                    "norm-id": 3,
+                    "text": "At the annual Festa Junina, families gather in their backyards to celebrate with traditional food, games, and music, creating a joyful atmosphere filled with laughter and dancing."
+                },
+                {
+                    "id": 33,
+                    "norm-id": 3,
+                    "text": "Rafael organizes a samba night at a local club, inviting friends to dance and enjoy live music, believing that these moments of celebration bring everyone closer together."
+                },
+                {
+                    "id": 34,
+                    "norm-id": 3,
+                    "text": "When the World Cup approaches, Marta decorates her home with flags and organizes viewing parties for her friends, turning each game into a lively celebration filled with cheering and music."
+                },
+                {
+                    "id": 35,
+                    "norm-id": 3,
+                    "text": "During a family reunion, Luciana sets up a mini dance floor in her backyard and plays traditional Brazilian music, encouraging everyone to join in and celebrate their heritage together."
+                },
+                {
+                    "id": 36,
+                    "norm-id": 3,
+                    "text": "João attends a local festival where people gather to celebrate cultural diversity through dance, food, and music, feeling a sense of joy and unity with the community."
+                },
+                {
+                    "id": 37,
+                    "norm-id": 3,
+                    "text": "At the end of the year, a group of friends comes together for a New Year's Eve celebration on the beach, wearing white for good luck, dancing to live music, and participating in local traditions."
+                },
+                {
+                    "id": 38,
+                    "norm-id": 3,
+                    "text": "Sofia invites her neighbors to celebrate her birthday with a lively party featuring a live band, encouraging everyone to dance and enjoy the festive atmosphere."
+                },
+                {
+                    "id": 39,
+                    "norm-id": 3,
+                    "text": "During the Folklore Festival, families and friends gather to watch performances of traditional dances, feeling proud of their culture and celebrating together as a community."
+                },
+                {
+                    "id": 40,
+                    "norm-id": 3,
+                    "text": "Carlos volunteers at a local charity event where music and dance are central, bringing joy to children and families while creating a festive atmosphere filled with laughter and celebration."
+                },
+                {
+                    "id": 41,
+                    "norm-id": 4,
+                    "text": "When the local factory closes, Paula quickly gathers her community to brainstorm ways to start a cooperative business, utilizing their skills and resources to create new job opportunities."
+                },
+                {
+                    "id": 42,
+                    "norm-id": 4,
+                    "text": "After a devastating flood damages her home, Fernanda creatively transforms the challenges into a chance to organize a community fundraising event, bringing neighbors together to support each other."
+                },
+                {
+                    "id": 43,
+                    "norm-id": 4,
+                    "text": "Despite facing financial difficulties, Lucas starts a small food delivery service from home, using social media to promote his dishes and connect with customers in his neighborhood."
+                },
+                {
+                    "id": 44,
+                    "norm-id": 4,
+                    "text": "When a local park falls into disrepair, a group of residents, led by Ricardo, band together to clean it up and organize events to revitalize the community space."
+                },
+                {
+                    "id": 45,
+                    "norm-id": 4,
+                    "text": "After losing his job, André takes up gardening as a hobby, quickly turning it into a small business by selling organic produce to local markets and restaurants."
+                },
+                {
+                    "id": 46,
+                    "norm-id": 4,
+                    "text": "When faced with a health challenge, Maria joins a support group and shares her story, inspiring others to overcome their difficulties and pursue healthier lifestyles together."
+                },
+                {
+                    "id": 47,
+                    "norm-id": 4,
+                    "text": "Following an economic downturn, Beatriz initiates skill-sharing workshops in her community, where neighbors teach each other various trades, empowering everyone to adapt and thrive."
+                },
+                {
+                    "id": 48,
+                    "norm-id": 4,
+                    "text": "After a natural disaster impacts her town, Gabriela leads efforts to rebuild homes and infrastructure, using her creativity to design sustainable and resilient solutions."
+                },
+                {
+                    "id": 49,
+                    "norm-id": 4,
+                    "text": "When the local school faces budget cuts, a group of parents, including João, collaborate to raise funds and implement programs that keep extracurricular activities alive."
+                },
+                {
+                    "id": 50,
+                    "norm-id": 4,
+                    "text": "Facing the challenges of a tough job market, Amanda creates an online platform to connect freelancers in her city, facilitating collaboration and support among them."
+                },
+                {
+                    "id": 51,
+                    "norm-id": 5,
+                    "text": "During a cultural festival, the community showcases traditional dances, music, and food from various ethnic groups, celebrating the rich diversity that shapes their identity."
+                },
+                {
+                    "id": 52,
+                    "norm-id": 5,
+                    "text": "At a university event, students from different backgrounds share their cultural traditions through art exhibits and performances, fostering an environment of respect and appreciation."
+                },
+                {
+                    "id": 53,
+                    "norm-id": 5,
+                    "text": "In a local neighborhood, a potluck dinner is organized where families bring dishes from their cultural heritage, creating a space for sharing stories and building connections."
+                },
+                {
+                    "id": 54,
+                    "norm-id": 5,
+                    "text": "When a new family moves into the neighborhood, community members, including both locals and immigrants, organize a welcome party to introduce themselves and share their cultures."
+                },
+                {
+                    "id": 55,
+                    "norm-id": 5,
+                    "text": "During an interfaith dialogue event, individuals from various religious backgrounds come together to share their beliefs and practices, promoting understanding and harmony among different faiths."
+                },
+                {
+                    "id": 56,
+                    "norm-id": 5,
+                    "text": "A local art gallery hosts an exhibition featuring artists from marginalized communities, highlighting their unique perspectives and contributions to Brazilian culture."
+                },
+                {
+                    "id": 57,
+                    "norm-id": 5,
+                    "text": "In schools, students participate in multicultural days where they dress in traditional attire and present information about their backgrounds, encouraging inclusivity and respect."
+                },
+                {
+                    "id": 58,
+                    "norm-id": 5,
+                    "text": "When the city hosts an international film festival, filmmakers from diverse backgrounds are invited to showcase their work, emphasizing the importance of varied voices in storytelling."
+                },
+                {
+                    "id": 59,
+                    "norm-id": 5,
+                    "text": "A community center offers language classes taught by native speakers, allowing residents to learn about different cultures while acquiring new communication skills."
+                },
+                {
+                    "id": 60,
+                    "norm-id": 5,
+                    "text": "During a local fair, artisans from various regions present their crafts, encouraging visitors to appreciate the artistry and traditions that stem from Brazil's rich cultural diversity."
+                },
+                {
+                    "id": 61,
+                    "norm-id": 6,
+                    "text": "During a weekend trip to the Amazon, Lucas participates in a guided tour that educates him on the region's biodiversity and the importance of preserving its ecosystems."
+                },
+                {
+                    "id": 62,
+                    "norm-id": 6,
+                    "text": "Maria leads a local initiative to clean up the nearby river, rallying community members to come together and understand the impact of pollution on wildlife and local habitats."
+                },
+                {
+                    "id": 63,
+                    "norm-id": 6,
+                    "text": "As part of a school project, João and his classmates create a presentation on endangered species in Brazil, highlighting the need for conservation efforts to protect their natural heritage."
+                },
+                {
+                    "id": 64,
+                    "norm-id": 6,
+                    "text": "After learning about deforestation, Beatriz decides to plant native trees in her neighborhood, encouraging her friends and family to join her in restoring local green spaces."
+                },
+                {
+                    "id": 65,
+                    "norm-id": 6,
+                    "text": "During Earth Day celebrations, a group of friends organizes a hike in the Atlantic Forest, using the opportunity to discuss environmental issues and promote sustainable practices."
+                },
+                {
+                    "id": 66,
+                    "norm-id": 6,
+                    "text": "When visiting a national park, Sofia documents the unique flora and fauna through photography, sharing her experiences on social media to raise awareness about Brazil's natural beauty."
+                },
+                {
+                    "id": 67,
+                    "norm-id": 6,
+                    "text": "As an activist, Carlos participates in protests advocating for the protection of the Amazon Rainforest, uniting with others to fight against illegal logging and environmental degradation."
+                },
+                {
+                    "id": 68,
+                    "norm-id": 6,
+                    "text": "During family gatherings, discussions often revolve around sustainable farming practices, as Luciana's family emphasizes the importance of respecting the land and its resources."
+                },
+                {
+                    "id": 69,
+                    "norm-id": 6,
+                    "text": "In her spare time, Amanda volunteers with a wildlife rescue organization, helping rehabilitate injured animals and educating the public on the importance of biodiversity."
+                },
+                {
+                    "id": 70,
+                    "norm-id": 6,
+                    "text": "At the local farmer's market, Rafael promotes organic produce, explaining to customers how sustainable agriculture benefits the environment and supports local ecosystems."
+                },
+                {
+                    "id": 71,
+                    "norm-id": 7,
+                    "text": "During a neighborhood barbecue, everyone contributes a dish, creating a sense of community as they gather to share food and stories while fostering strong ties."
+                },
+                {
+                    "id": 72,
+                    "norm-id": 7,
+                    "text": "When Ana notices her elderly neighbor struggling with groceries, she immediately offers to help, demonstrating the mutual support that is common among residents."
+                },
+                {
+                    "id": 73,
+                    "norm-id": 7,
+                    "text": "Every Sunday, a group of neighbors organizes a soccer match in the local park, where families come together to bond and enjoy the sense of camaraderie."
+                },
+                {
+                    "id": 74,
+                    "norm-id": 7,
+                    "text": "When a local family experiences a crisis, the community rallies around them, providing meals and assistance, showcasing the strong support networks in place."
+                },
+                {
+                    "id": 75,
+                    "norm-id": 7,
+                    "text": "During a neighborhood clean-up event, residents of all ages come together to pick up litter and beautify their surroundings, reinforcing the importance of working as a community."
+                },
+                {
+                    "id": 76,
+                    "norm-id": 7,
+                    "text": "At the local community center, workshops are held where neighbors teach each other skills, from cooking to crafts, enhancing relationships and creating a supportive environment."
+                },
+                {
+                    "id": 77,
+                    "norm-id": 7,
+                    "text": "When a new family moves in, the residents organize a welcome gathering, ensuring they feel included and fostering a sense of belonging right from the start."
+                },
+                {
+                    "id": 78,
+                    "norm-id": 7,
+                    "text": "During school events, parents collaborate to organize activities, demonstrating teamwork and a collective effort to support the children and each other."
+                },
+                {
+                    "id": 79,
+                    "norm-id": 7,
+                    "text": "Every month, neighbors gather for a potluck dinner, creating a relaxed atmosphere to connect, share experiences, and strengthen their bonds."
+                },
+                {
+                    "id": 80,
+                    "norm-id": 7,
+                    "text": "In times of celebration, such as birthdays or holidays, the community comes together to decorate and celebrate, enhancing the joy and spirit of togetherness."
+                },
+                {
+                    "id": 81,
+                    "norm-id": 8,
+                    "text": "During the World Cup, families gather around their televisions, cheering passionately for their national team, showcasing the sport's ability to unite people from different backgrounds."
+                },
+                {
+                    "id": 82,
+                    "norm-id": 8,
+                    "text": "At a local park, children from various neighborhoods come together to play football, forming teams regardless of their social status, all sharing the joy of the game."
+                },
+                {
+                    "id": 83,
+                    "norm-id": 8,
+                    "text": "In anticipation of a big match, Maria organizes a viewing party, inviting friends and neighbors to celebrate together, reinforcing the community spirit through their shared love for football."
+                },
+                {
+                    "id": 84,
+                    "norm-id": 8,
+                    "text": "After winning a significant tournament, players from diverse backgrounds are celebrated in the streets, as fans of all ages come together to honor their achievements and enjoy the festive atmosphere."
+                },
+                {
+                    "id": 85,
+                    "norm-id": 8,
+                    "text": "During a community festival, a football tournament is organized, encouraging participation from all ages and promoting sportsmanship, teamwork, and unity."
+                },
+                {
+                    "id": 86,
+                    "norm-id": 8,
+                    "text": "As a coach, João emphasizes the importance of inclusivity in his youth team, fostering friendships among players from different social classes through their shared passion for football."
+                },
+                {
+                    "id": 87,
+                    "norm-id": 8,
+                    "text": "When the national team plays, businesses close early to allow employees to watch the match together, illustrating the collective excitement and importance of the sport."
+                },
+                {
+                    "id": 88,
+                    "norm-id": 8,
+                    "text": "After a heated game, rival fans exchange friendly banter and snacks, demonstrating how football transcends rivalry and fosters mutual respect."
+                },
+                {
+                    "id": 89,
+                    "norm-id": 8,
+                    "text": "At school, teachers incorporate football into lessons, using it as a tool to teach teamwork, discipline, and perseverance among students."
+                },
+                {
+                    "id": 90,
+                    "norm-id": 8,
+                    "text": "During the Olympics, Brazilians gather to support not only their football team but all athletes, displaying national pride and unity across various sports."
+                },
+                {
+                    "id": 91,
+                    "norm-id": 9,
+                    "text": "After facing challenges at work, Lucas maintains a positive outlook, believing that each setback is an opportunity for growth and improvement."
+                },
+                {
+                    "id": 92,
+                    "norm-id": 9,
+                    "text": "During difficult times, Ana often organizes get-togethers with friends, focusing on laughter and support, reinforcing their belief that optimism can help them overcome any obstacles."
+                },
+                {
+                    "id": 93,
+                    "norm-id": 9,
+                    "text": "As the community deals with a recent storm's damage, neighbors come together to help each other rebuild, emphasizing their hopeful outlook and determination to recover."
+                },
+                {
+                    "id": 94,
+                    "norm-id": 9,
+                    "text": "When facing a health scare, Beatriz chooses to focus on the positive aspects of her situation, surrounding herself with supportive friends and family who uplift her spirits."
+                },
+                {
+                    "id": 95,
+                    "norm-id": 9,
+                    "text": "At a local café, Maria shares inspiring stories of resilience and positivity with patrons, fostering an environment of hope and encouragement among her customers."
+                },
+                {
+                    "id": 96,
+                    "norm-id": 9,
+                    "text": "After losing a close match, the football team gathers to celebrate their efforts, discussing the lessons learned and remaining optimistic about their next game."
+                },
+                {
+                    "id": 97,
+                    "norm-id": 9,
+                    "text": "When faced with economic challenges, Carlos remains hopeful and actively seeks new opportunities, believing that hard work and a positive attitude will lead to success."
+                },
+                {
+                    "id": 98,
+                    "norm-id": 9,
+                    "text": "During a community meeting, residents express their optimism about upcoming projects, focusing on the potential benefits for their neighborhood and collaborating for a brighter future."
+                },
+                {
+                    "id": 99,
+                    "norm-id": 9,
+                    "text": "While volunteering at a local shelter, Sofia encourages others to focus on the positive impact they are making in their community, promoting a culture of hope and kindness."
+                },
+                {
+                    "id": 100,
+                    "norm-id": 9,
+                    "text": "Even in tough times, families in Brazil celebrate small victories together, creating a tradition of finding joy and gratitude in everyday moments."
+                },
+                {
+                    "id": 101,
+                    "norm-id": 10,
+                    "text": "During Sunday mass, families come together to pray and reflect, emphasizing the importance of their shared faith and community."
+                },
+                {
+                    "id": 102,
+                    "norm-id": 10,
+                    "text": "At a local Afro-Brazilian festival, Ana participates in rituals that honor her ancestry, embracing the spiritual traditions that guide her moral values."
+                },
+                {
+                    "id": 103,
+                    "norm-id": 10,
+                    "text": "As a part of their religious practice, João's family gathers every week to light candles and pray, fostering a strong connection to their faith and each other."
+                },
+                {
+                    "id": 104,
+                    "norm-id": 10,
+                    "text": "During a family gathering, Beatriz leads a discussion about the significance of their religious beliefs in shaping their values, inspiring younger generations to embrace their spirituality."
+                },
+                {
+                    "id": 105,
+                    "norm-id": 10,
+                    "text": "In preparation for a religious holiday, Carlos and his friends volunteer to help organize events at the local church, showcasing their commitment to community service and faith."
+                },
+                {
+                    "id": 106,
+                    "norm-id": 10,
+                    "text": "At a community center, residents gather for a prayer circle, reflecting on their lives and supporting one another through shared beliefs and spirituality."
+                },
+                {
+                    "id": 107,
+                    "norm-id": 10,
+                    "text": "While celebrating a significant religious event, Maria shares her family's traditions and rituals, reinforcing the importance of their faith in guiding their everyday lives."
+                },
+                {
+                    "id": 108,
+                    "norm-id": 10,
+                    "text": "In school, teachers incorporate lessons about different spiritual practices, promoting understanding and respect for the diverse beliefs present in Brazilian culture."
+                },
+                {
+                    "id": 109,
+                    "norm-id": 10,
+                    "text": "As a part of their wedding ceremony, couples often blend different cultural and religious traditions, highlighting the rich tapestry of faith in Brazil."
+                },
+                {
+                    "id": 110,
+                    "norm-id": 10,
+                    "text": "During national holidays, Brazilians participate in parades and celebrations that reflect their diverse religious heritage, showcasing unity in faith and cultural expression."
+                }
+            ]
+        },
+        {
+            "gpt4-o prompt": "A major cultural norm in {country} is {cultural norm}. I would like to generate some example scenarios showing this cultural norm in {country}. Here are two example scenarios for norm 'Individualism is highly valued in the USA, with a strong emphasis on personal freedom and self-reliance' in USA: {Jane decides to negotiate her salary and benefits during her job interview, emphasizing her unique skills and achievements that justify a higher compensation package.} {Mark proudly shares his personal project on social media, showcasing the skills and hard work he put into creating a successful startup from scratch.}: Please generate 10 scenarios for the norm {norm} in country {country}, detailing each scenario with up to 3 sentences. Please refrain from stating the cultural norm in the scenario.",
+            "country": "South Africa",
+            "scenarios": [
+                { "id": 11, "norm-id": 1, "text": "During a community meeting, Thandi shares her experience of helping a neighbor in need, encouraging others to support one another in times of difficulty." },
+                { "id": 12, "norm-id": 1, "text": "At a local school event, a group of parents collaborates to organize a fundraiser, demonstrating the importance of working together for the benefit of their children." },
+                { "id": 13, "norm-id": 1, "text": "Sipho volunteers his time to mentor youth in his neighborhood, believing that by lifting others, he contributes to the well-being of the entire community." },
+                { "id": 14, "norm-id": 1, "text": "When a severe storm damages homes in her area, Zanele organizes a community cleanup and rebuilding effort, uniting neighbors to restore their shared environment." },
+                { "id": 15, "norm-id": 1, "text": "During a traditional gathering, David shares stories of his ancestors, emphasizing the collective heritage that shapes their identity and bonds them as a community." },
+                { "id": 16, "norm-id": 1, "text": "In a workplace team, colleagues openly collaborate on projects, valuing each member’s input and recognizing that their success is interdependent." },
+                { "id": 17, "norm-id": 1, "text": "At a wedding, friends and family come together to prepare traditional dishes, showcasing the value of shared responsibilities and contributions to celebrate unity." },
+                { "id": 18, "norm-id": 1, "text": "After a local sports team wins a championship, players host a community celebration, inviting everyone to join in the joy and foster a sense of collective pride." },
+                { "id": 19, "norm-id": 1, "text": "During a cultural festival, artists collaborate on a mural that reflects the community's history and values, reinforcing the idea that their stories are intertwined." },
+                { "id": 20, "norm-id": 1, "text": "When a family faces financial hardship, their neighbors organize a fundraising event, demonstrating solidarity and commitment to each other's welfare." }, 
+
+                { "id": 21, "norm-id": 2, "text": "At a local festival, communities come together to celebrate various cultural traditions, showcasing their unique foods, dances, and music." },
+                { "id": 22, "norm-id": 2, "text": "During a school assembly, students present cultural performances, highlighting the diverse backgrounds of their peers and fostering appreciation for each other's heritage." },
+                { "id": 23, "norm-id": 2, "text": "In a workplace diversity training, employees share personal stories that reflect their cultural backgrounds, promoting understanding and respect among colleagues." },
+                { "id": 24, "norm-id": 2, "text": "While planning a community event, organizers ensure representation from various cultural groups, ensuring everyone’s voice is heard and celebrated." },
+                { "id": 25, "norm-id": 2, "text": "At a local market, vendors from different cultures sell their crafts, promoting cross-cultural interactions and celebrating the richness of South African craftsmanship." },
+                { "id": 26, "norm-id": 2, "text": "In a documentary, local filmmakers highlight stories of interfaith families, showcasing how they navigate cultural differences and find common ground." },
+                { "id": 27, "norm-id": 2, "text": "During a national holiday, communities organize parades that reflect the diversity of South African culture, with floats representing various ethnic groups." },
+                { "id": 28, "norm-id": 2, "text": "In an art gallery, a new exhibit features artists from different backgrounds, promoting dialogue about their cultural influences and artistic expressions." },
+                { "id": 29, "norm-id": 2, "text": "At a family gathering, members from various cultural backgrounds share their traditions, recipes, and stories, enriching their collective family history." },
+                { "id": 30, "norm-id": 2, "text": "During a town hall meeting, residents discuss local issues, highlighting how solutions should consider the diverse needs and perspectives of the community." },
+
+                { "id": 31, "norm-id": 3, "text": "During a national memorial event, South Africans from various backgrounds gather to honor the sacrifices of those who fought for freedom and justice." },
+                { "id": 32, "norm-id": 3, "text": "At a community workshop, participants engage in discussions about the importance of reconciliation and healing past wounds to move forward together." },
+                { "id": 33, "norm-id": 3, "text": "While volunteering at a shelter, individuals from different ethnic groups come together to serve meals, reinforcing their shared humanity." },
+                { "id": 34, "norm-id": 3, "text": "In a film screening, local filmmakers showcase stories of resilience and unity during apartheid, fostering discussions on how to prevent future divisions." },
+                { "id": 35, "norm-id": 3, "text": "A youth group organizes a peace march to commemorate the end of apartheid, symbolizing their commitment to harmony and mutual respect." },
+                { "id": 36, "norm-id": 3, "text": "During a conference on social justice, speakers highlight the importance of acknowledging historical injustices while promoting forward-thinking solutions." },
+                { "id": 37, "norm-id": 3, "text": "In a school project, students research and present on South Africa's history, focusing on both struggles and triumphs, fostering a sense of shared identity." },
+                { "id": 38, "norm-id": 3, "text": "At a family reunion, relatives from different parts of the country share their experiences of overcoming adversity, reinforcing familial bonds." },
+                { "id": 39, "norm-id": 3, "text": "During a cultural exchange program, youth from different communities engage in dialogue about their histories, emphasizing the importance of understanding one another." },
+                { "id": 40, "norm-id": 3, "text": "While participating in a local cleanup event, volunteers discuss how collective action can help heal communities and build stronger connections." },
+
+                { "id": 41, "norm-id": 4, "text": "At a local gathering, community members share stories about their ancestors, emphasizing the importance of family heritage and respect for elders." },
+                { "id": 42, "norm-id": 4, "text": "During a traditional ceremony, participants honor their ancestors through rituals, reinforcing their connection to cultural roots." },
+                { "id": 43, "norm-id": 4, "text": "In a neighborhood event, elders are invited to share their wisdom and experiences, fostering respect among younger generations." },
+                { "id": 44, "norm-id": 4, "text": "While preparing for a wedding, families discuss their lineage and how it influences their values and beliefs, underscoring the significance of heritage." },
+                { "id": 45, "norm-id": 4, "text": "During a community forum, individuals reflect on their cultural identities and how they shape their perspectives on current issues." },
+                { "id": 46, "norm-id": 4, "text": "At a history class, students learn about their cultural backgrounds and how the past continues to influence their community today." },
+                { "id": 47, "norm-id": 4, "text": "In a storytelling circle, community members take turns sharing tales of their ancestors, weaving a rich tapestry of shared history." },
+                { "id": 48, "norm-id": 4, "text": "During a family dinner, discussions revolve around family traditions that have been passed down through generations, instilling a sense of pride." },
+                { "id": 49, "norm-id": 4, "text": "In a documentary, individuals reflect on how their heritage shapes their identity and sense of belonging in a diverse society." },
+                { "id": 50, "norm-id": 4, "text": "At a youth camp, participants are encouraged to explore their roots, discussing how their backgrounds influence their values and aspirations." }, 
+
+                { "id": 51, "norm-id": 5, "text": "During a community development meeting, residents discuss how to address local needs while emphasizing their shared responsibility to improve their neighborhood." },
+                { "id": 52, "norm-id": 5, "text": "A group of friends comes together to organize a charity event, each contributing their skills and resources to support a common cause." },
+                { "id": 53, "norm-id": 5, "text": "While participating in a local farming initiative, community members share knowledge and resources, highlighting the importance of collaboration for sustainable agriculture." },
+                { "id": 54, "norm-id": 5, "text": "At a community garden, volunteers work side by side, exchanging tips and stories about their gardening experiences, reinforcing their connections." },
+                { "id": 55, "norm-id": 5, "text": "During a youth leadership program, participants learn about the significance of community involvement and how their actions can create positive change." },
+                { "id": 56, "norm-id": 5, "text": "In a town hall, citizens discuss how local policies should reflect the needs and aspirations of the community as a whole." },
+                { "id": 57, "norm-id": 5, "text": "While organizing a local sports event, teams come together to support each other, creating a spirit of camaraderie and collective achievement." },
+                { "id": 58, "norm-id": 5, "text": "At a community cleanup, participants collaborate to beautify their neighborhood, showcasing the power of teamwork in creating a positive environment." },
+                { "id": 59, "norm-id": 5, "text": "In a mentorship program, experienced individuals guide youth, emphasizing the importance of investing in the next generation for collective growth." },
+                { "id": 60, "norm-id": 5, "text": "During a cultural exchange, participants from different backgrounds learn from each other, fostering a sense of belonging and mutual support." },
+
+                { "id": 61, "norm-id": 6, "text": "At a community gathering, elders share their life lessons, reinforcing the respect and value placed on wisdom and experience." },
+                { "id": 62, "norm-id": 6, "text": "In a mentorship program, young professionals seek guidance from seasoned experts, demonstrating the importance of learning from those who came before." },
+                { "id": 63, "norm-id": 6, "text": "During a traditional ceremony, participants pay homage to their ancestors, honoring their legacy and contributions to the family." },
+                { "id": 64, "norm-id": 6, "text": "In a community forum, leaders discuss how to preserve cultural traditions while adapting to modern challenges." },
+                { "id": 65, "norm-id": 6, "text": "At a family reunion, older relatives recount stories of resilience, instilling a sense of pride in the younger generation." },
+                { "id": 66, "norm-id": 6, "text": "In an educational setting, students are encouraged to engage with their elders, fostering intergenerational relationships and understanding." },
+                { "id": 67, "norm-id": 6, "text": "During a local history project, students interview older community members, learning about the past while valuing their contributions." },
+                { "id": 68, "norm-id": 6, "text": "In a documentary, individuals reflect on how the wisdom of previous generations shapes their values and decisions today." },
+                { "id": 69, "norm-id": 6, "text": "While participating in a cultural festival, youth are encouraged to learn traditional dances and songs from their elders." },
+                { "id": 70, "norm-id": 6, "text": "At a community workshop, participants share their experiences of overcoming challenges, creating a dialogue between generations." }, 
+
+                { "id": 71, "norm-id": 7, "text": "During a local sports event, teams from different communities come together to celebrate their shared love for the game." },
+                { "id": 72, "norm-id": 7, "text": "In a cultural festival, people of all backgrounds join hands to showcase their traditional dances and songs, emphasizing unity in diversity." },
+                { "id": 73, "norm-id": 7, "text": "While organizing a charity drive, volunteers from various cultural backgrounds collaborate to support a common cause." },
+                { "id": 74, "norm-id": 7, "text": "At a youth leadership conference, participants share their experiences, fostering connections and understanding across cultural lines." },
+                { "id": 75, "norm-id": 7, "text": "During a neighborhood cleanup, residents from diverse backgrounds come together, demonstrating solidarity in improving their environment." },
+                { "id": 76, "norm-id": 7, "text": "At a town hall meeting, community members discuss local issues, highlighting their shared responsibility for creating a better future." },
+                { "id": 77, "norm-id": 7, "text": "In an interfaith dialogue, individuals from various religious backgrounds share their beliefs, fostering understanding and respect." },
+                { "id": 78, "norm-id": 7, "text": "During a community art project, artists collaborate to create a mural that represents the diverse stories of their neighborhood." },
+                { "id": 79, "norm-id": 7, "text": "At a cultural exchange event, participants share traditional foods, emphasizing the richness of South Africa’s culinary diversity." },
+                { "id": 80, "norm-id": 7, "text": "In a local music festival, musicians from different backgrounds perform together, celebrating their unique sounds while fostering unity." }, 
+
+                { "id": 81, "norm-id": 8, "text": "During a family gathering, stories are shared that highlight the resilience and contributions of various ethnic groups in shaping South Africa." },
+                { "id": 82, "norm-id": 8, "text": "In a local school, students present projects on famous figures from different cultures, showcasing the diverse narratives within their community." },
+                { "id": 83, "norm-id": 8, "text": "At a national celebration, performances highlight the unique traditions of various cultural groups, fostering a sense of national pride." },
+                { "id": 84, "norm-id": 8, "text": "During a community dialogue, residents discuss how cultural diversity enriches their neighborhood, emphasizing the strength found in differences." },
+                { "id": 85, "norm-id": 8, "text": "In a documentary, filmmakers explore the rich tapestry of South African cultures, showcasing the contributions of each group to the nation’s identity." },
+                { "id": 86, "norm-id": 8, "text": "At a local market, artisans display their crafts, representing the unique cultural heritages of different communities." },
+                { "id": 87, "norm-id": 8, "text": "During a youth camp, participants learn about the cultural practices of various groups, fostering mutual respect and understanding." },
+                { "id": 88, "norm-id": 8, "text": "At a public lecture, speakers discuss the historical impact of diversity on South Africa's development, encouraging reflection on current societal dynamics." },
+                { "id": 89, "norm-id": 8, "text": "In a local art exhibit, artists from diverse backgrounds collaborate to create pieces that reflect their cultural narratives." },
+                { "id": 90, "norm-id": 8, "text": "During a cultural exchange program, participants explore different customs and traditions, deepening their appreciation for South Africa's diversity." }, 
+
+                { "id": 91, "norm-id": 9, "text": "At a community debate, individuals passionately express differing viewpoints on local issues, showcasing the importance of free speech." },
+                { "id": 92, "norm-id": 9, "text": "During a political rally, citizens gather to voice their opinions on government policies, emphasizing their right to express dissent." },
+                { "id": 93, "norm-id": 9, "text": "In a classroom discussion, students engage in respectful debates, learning to appreciate diverse perspectives on various topics." },
+                { "id": 94, "norm-id": 9, "text": "While participating in a public forum, community members voice their concerns and suggestions, demonstrating the value of civic engagement." },
+                { "id": 95, "norm-id": 9, "text": "In a podcast, individuals discuss controversial topics, promoting open dialogue and encouraging listeners to form their own opinions." },
+                { "id": 96, "norm-id": 9, "text": "At a town hall meeting, residents share their views on community development, advocating for transparency and active participation in governance." },
+                { "id": 97, "norm-id": 9, "text": "During a cultural event, artists express their political opinions through their work, sparking conversations about societal issues." },
+                { "id": 98, "norm-id": 9, "text": "At a university panel, experts discuss the importance of free speech in academia, fostering an environment of diverse thought." },
+                { "id": 99, "norm-id": 9, "text": "In an online forum, individuals engage in discussions about current events, showcasing a range of perspectives and encouraging civil discourse." },
+                { "id": 100, "norm-id": 9, "text": "During a public lecture, speakers emphasize the need for constructive criticism and dialogue in a democratic society." },
+
+                { "id": 101, "norm-id": 10, "text": "At a local market, shoppers are eager to purchase the latest gadgets, reflecting the societal value placed on consumer trends." },
+                { "id": 102, "norm-id": 10, "text": "During a community event, discussions center around the impact of advertising on consumer choices, showcasing the prevalence of materialism." },
+                { "id": 103, "norm-id": 10, "text": "In a shopping center, groups of friends discuss the newest fashion trends, emphasizing the importance of style and status." },
+                { "id": 104, "norm-id": 10, "text": "While attending a product launch, consumers express excitement about innovative features, illustrating the desire for the latest technology." },
+                { "id": 105, "norm-id": 10, "text": "In a community forum, residents discuss how consumerism influences local businesses and economic growth." },
+                { "id": 106, "norm-id": 10, "text": "At a social gathering, individuals share their latest purchases, reflecting how material possessions are intertwined with social identity." },
+                { "id": 107, "norm-id": 10, "text": "During a local advertising workshop, marketers emphasize strategies that appeal to consumers' aspirations and desires." },
+                { "id": 108, "norm-id": 10, "text": "In a documentary, filmmakers explore the impact of consumer culture on individual values and community dynamics." },
+                { "id": 109, "norm-id": 10, "text": "At a business conference, speakers highlight the importance of understanding consumer behavior in today's market." },
+                { "id": 110, "norm-id": 10, "text": "While planning a community fundraising event, organizers discuss the need to appeal to consumers' interests to maximize donations." }
+            ]
+        },
+        {
+            "gpt4-o prompt": "A major cultural norm in {country} is {cultural norm}. I would like to generate some example scenarios showing this cultural norm in {country}. Here are two example scenarios for norm 'Individualism is highly valued in the USA, with a strong emphasis on personal freedom and self-reliance' in USA: {Jane decides to negotiate her salary and benefits during her job interview, emphasizing her unique skills and achievements that justify a higher compensation package.} {Mark proudly shares his personal project on social media, showcasing the skills and hard work he put into creating a successful startup from scratch.}: Please generate 10 scenarios for the norm {norm} in country {country}, detailing each scenario with up to 3 sentences. Please refrain from stating the cultural norm in the scenario.",
+            "country": "Saudi Arabia",
+            "scenarios": [
+                {
+                    "id": 11,
+                    "norm-id": 1,
+                    "text": "Workplaces close during daily prayer times to allow employees to pray."
+                },
+                {
+                    "id": 12,
+                    "norm-id": 1,
+                    "text": "Public spaces like malls broadcast the call to prayer (Adhan) throughout the day."
+                },
+                {
+                    "id": 13,
+                    "norm-id": 1,
+                    "text": "Islamic teachings are part of the school curriculum in all educational levels."
+                },
+                {
+                    "id": 14,
+                    "norm-id": 1,
+                    "text": "Courts apply Sharia law, which influences legal rulings on criminal and civil cases."
+                },
+                {
+                    "id": 15,
+                    "norm-id": 1,
+                    "text": "Islamic holidays such as Eid al-Fitr and Eid al-Adha are national holidays."
+                },
+                {
+                    "id": 16,
+                    "norm-id": 1,
+                    "text": "During Ramadan, restaurants and shops close during daylight hours as people fast."
+                },
+                {
+                    "id": 17,
+                    "norm-id": 1,
+                    "text": "Public behavior is monitored to ensure it aligns with Islamic values, including dress codes and moral conduct."
+                },
+                {
+                    "id": 18,
+                    "norm-id": 1,
+                    "text": "Saudi Arabian banking operates under Islamic finance principles, avoiding interest (Riba)."
+                },
+                {
+                    "id": 19,
+                    "norm-id": 1,
+                    "text": "Marriages must comply with Islamic customs and laws."
+                },
+                {
+                    "id": 20,
+                    "norm-id": 1,
+                    "text": "Social services and charities are often organized around the principle of Zakat, an Islamic form of almsgiving."
+                },
+                {
+                    "id": 21,
+                    "norm-id": 2,
+                    "text": "Decisions on marriage are often made with the consultation and approval of the family."
+                },
+                {
+                    "id": 22,
+                    "norm-id": 2,
+                    "text": "Elders within the family are treated with the utmost respect and often have the final say in important family matters."
+                },
+                {
+                    "id": 23,
+                    "norm-id": 2,
+                    "text": "Family gatherings are a regular occurrence, often bringing together extended family members."
+                },
+                {
+                    "id": 24,
+                    "norm-id": 2,
+                    "text": "During holidays and celebrations, gifts are exchanged within families as a gesture of bonding."
+                },
+                {
+                    "id": 25,
+                    "norm-id": 2,
+                    "text": "Families play a major role in selecting the career paths and education of young family members."
+                },
+                {
+                    "id": 26,
+                    "norm-id": 2,
+                    "text": "Living arrangements are often extended, with multiple generations residing in the same household."
+                },
+                {
+                    "id": 27,
+                    "norm-id": 2,
+                    "text": "Males in the family are expected to protect and provide for the female members."
+                },
+                {
+                    "id": 28,
+                    "norm-id": 2,
+                    "text": "Family honor is closely tied to individual behavior, and maintaining the family’s reputation is important."
+                },
+                {
+                    "id": 29,
+                    "norm-id": 2,
+                    "text": "Important life events, like births and weddings, are celebrated with family first."
+                },
+                {
+                    "id": 30,
+                    "norm-id": 2,
+                    "text": "Inheritance is usually managed according to Islamic law, with male heirs typically receiving a larger share."
+                },
+
+
+
+                {
+                    "id": 31,
+                    "norm-id": 3,
+                    "text": "Guests are always offered Arabic coffee and dates upon arrival."
+                },
+                {
+                    "id": 32,
+                    "norm-id": 3,
+                    "text": "Hosts prepare lavish meals for guests, even for casual visits."
+                },
+                {
+                    "id": 33,
+                    "norm-id": 3,
+                    "text": "It is considered polite for guests to compliment the host on the quality of the meal."
+                },
+                {
+                    "id": 34,
+                    "norm-id": 3,
+                    "text": "When visiting someone’s home, it is customary to bring a gift or food item."
+                },
+                {
+                    "id": 35,
+                    "norm-id": 3,
+                    "text": "Hosts ensure their guests are seated in the best seats in the home as a sign of respect."
+                },
+                {
+                    "id": 36,
+                    "norm-id": 3,
+                    "text": "It is important for hosts to repeatedly offer food and drink to their guests."
+                },
+                {
+                    "id": 37,
+                    "norm-id": 3,
+                    "text": "Guests should never leave without having accepted some form of hospitality, even if they decline at first."
+                },
+                {
+                    "id": 38,
+                    "norm-id": 3,
+                    "text": "It’s customary to serve food in abundance to ensure no guest feels there isn’t enough."
+                },
+                {
+                    "id": 39,
+                    "norm-id": 3,
+                    "text": "Hosts are expected to show generosity to guests from other regions or countries."
+                },
+                {
+                    "id": 40,
+                    "norm-id": 3,
+                    "text": "During Eid, families often invite neighbors and relatives over for celebratory meals."
+                },
+
+
+
+                {
+                    "id": 41,
+                    "norm-id": 4,
+                    "text": "Family disputes are often kept private to avoid damaging the family’s reputation."
+                },
+                {
+                    "id": 42,
+                    "norm-id": 4,
+                    "text": "Actions by one family member reflect on the entire family, making individual behavior important to family honor."
+                },
+                {
+                    "id": 43,
+                    "norm-id": 4,
+                    "text": "Social standing influences decisions about who to marry, as families consider the reputation of the other family."
+                },
+                {
+                    "id": 44,
+                    "norm-id": 4,
+                    "text": "Elders in the family mediate conflicts to ensure the family’s honor remains intact."
+                },
+                {
+                    "id": 45,
+                    "norm-id": 4,
+                    "text": "A family’s reputation can affect their business relationships and social interactions."
+                },
+                {
+                    "id": 46,
+                    "norm-id": 4,
+                    "text": "Any public misbehavior by a family member may lead to social repercussions for the entire family."
+                },
+                {
+                    "id": 47,
+                    "norm-id": 4,
+                    "text": "Honor is protected through strict adherence to social and religious norms, especially concerning women’s behavior."
+                },
+                {
+                    "id": 48,
+                    "norm-id": 4,
+                    "text": "Families often avoid scandalous situations that could harm their social standing."
+                },
+                {
+                    "id": 49,
+                    "norm-id": 4,
+                    "text": "Public displays of generosity and good character are important to maintaining a family’s reputation."
+                },
+                {
+                    "id": 50,
+                    "norm-id": 4,
+                    "text": "Protecting a family’s reputation may involve making sacrifices to preserve social standing."
+                },
+
+
+                {
+                    "id": 51,
+                    "norm-id": 5,
+                    "text": "Saudi citizens participate in national celebrations like Saudi National Day to express loyalty to the monarchy."
+                },
+                {
+                    "id": 52,
+                    "norm-id": 5,
+                    "text": "The royal family is often referenced in speeches as a symbol of stability and Islamic leadership."
+                },
+                {
+                    "id": 53,
+                    "norm-id": 5,
+                    "text": "Schools teach the importance of the monarchy’s role in safeguarding Islam’s holiest sites."
+                },
+                {
+                    "id": 54,
+                    "norm-id": 5,
+                    "text": "Patriotism is reinforced through public displays of national symbols, including flags and royal portraits."
+                },
+                {
+                    "id": 55,
+                    "norm-id": 5,
+                    "text": "Political discussions often center on loyalty to the monarchy as a source of stability in the region."
+                },
+                {
+                    "id": 56,
+                    "norm-id": 5,
+                    "text": "Monarchical achievements in infrastructure, education, and healthcare are frequently praised by citizens."
+                },
+                {
+                    "id": 57,
+                    "norm-id": 5,
+                    "text": "Royal decrees and orders are respected as a central part of Saudi governance."
+                },
+                {
+                    "id": 58,
+                    "norm-id": 5,
+                    "text": "Public protests or criticism of the monarchy are considered unpatriotic."
+                },
+                {
+                    "id": 59,
+                    "norm-id": 5,
+                    "text": "The royal family’s charitable activities, including those related to Islamic causes, are often highlighted in the media."
+                },
+                {
+                    "id": 60,
+                    "norm-id": 5,
+                    "text": "Citizens express their pride in Saudi Arabia’s role as a global leader in the Muslim world due to the monarchy’s stewardship of Mecca and Medina."
+                },
+
+
+
+                {
+                    "id": 61,
+                    "norm-id": 6,
+                    "text": "Men are traditionally expected to be the primary breadwinners, while women manage the household."
+                },
+                {
+                    "id": 62,
+                    "norm-id": 6,
+                    "text": "Young women increasingly seek higher education and careers outside the home, reflecting evolving gender roles."
+                },
+                {
+                    "id": 63,
+                    "norm-id": 6,
+                    "text": "Men are expected to provide financial support for their sisters and mothers, especially if unmarried."
+                },
+                {
+                    "id": 64,
+                    "norm-id": 6,
+                    "text": "Women’s participation in the workforce is becoming more accepted in fields like education, healthcare, and business."
+                },
+                {
+                    "id": 65,
+                    "norm-id": 6,
+                    "text": "Traditional gender roles are reinforced in rural areas, where women tend to focus on domestic duties."
+                },
+                {
+                    "id": 66,
+                    "norm-id": 6,
+                    "text": "Family decisions, including where to live or work, are often made by the male head of the household."
+                },
+                {
+                    "id": 67,
+                    "norm-id": 6,
+                    "text": "Women’s rights to drive and work have expanded, reflecting the country’s gradual shift in gender norms."
+                },
+                {
+                    "id": 68,
+                    "norm-id": 6,
+                    "text": "Men are expected to accompany their female relatives in public spaces as a form of protection."
+                },
+                {
+                    "id": 69,
+                    "norm-id": 6,
+                    "text": "Marriage contracts often outline the expectations of gender roles within the relationship."
+                },
+                {
+                    "id": 70,
+                    "norm-id": 6,
+                    "text": "Government initiatives promote women’s employment and entrepreneurship, signaling evolving social norms."
+                },
+
+
+
+                {
+                    "id": 71,
+                    "norm-id": 7,
+                    "text": "Religious leaders' interpretations of Islamic law are generally accepted without question by the public."
+                },
+                {
+                    "id": 72,
+                    "norm-id": 7,
+                    "text": "Citizens adhere to the rulings and decrees issued by the government, considering them an obligation."
+                },
+                {
+                    "id": 73,
+                    "norm-id": 7,
+                    "text": "Criticism of government policies is seen as challenging societal stability and is often discouraged."
+                },
+                {
+                    "id": 74,
+                    "norm-id": 7,
+                    "text": "Saudi citizens are expected to follow the teachings and directives of senior religious figures in all matters of daily life."
+                },
+                {
+                    "id": 75,
+                    "norm-id": 7,
+                    "text": "Laws prohibiting dissent against the monarchy are strictly enforced, reflecting respect for authority."
+                },
+                {
+                    "id": 76,
+                    "norm-id": 7,
+                    "text": "Citizens participate in civic duties, such as military service, as a way to demonstrate respect for national authority."
+                },
+                {
+                    "id": 77,
+                    "norm-id": 7,
+                    "text": "Religious festivals are celebrated with public adherence to the authority of religious leaders who announce prayer times and key celebrations."
+                },
+                {
+                    "id": 78,
+                    "norm-id": 7,
+                    "text": "Authority figures, including religious leaders and government officials, are treated with great deference in public and private meetings."
+                },
+                {
+                    "id": 79,
+                    "norm-id": 7,
+                    "text": "Public officials' decisions, such as infrastructure projects or economic policies, are widely supported and rarely challenged by the population."
+                },
+                {
+                    "id": 80,
+                    "norm-id": 7,
+                    "text": "Religious scholars regularly appear on television to advise on moral and social matters, reinforcing their authority in everyday life."
+                },  
+                
+                
+                {
+                    "id": 81,
+                    "norm-id": 8,
+                    "text": "Women wear the abaya in public as a symbol of modesty, covering their body according to cultural expectations."
+                },
+                {
+                    "id": 82,
+                    "norm-id": 8,
+                    "text": "Men and women are expected to avoid public displays of affection, adhering to norms of modest behavior."
+                },
+                {
+                    "id": 83,
+                    "norm-id": 8,
+                    "text": "Social gatherings for men and women are typically segregated to ensure privacy and modesty."
+                },
+                {
+                    "id": 84,
+                    "norm-id": 8,
+                    "text": "Women are expected to avoid wearing tight or revealing clothing in public places."
+                },
+                {
+                    "id": 85,
+                    "norm-id": 8,
+                    "text": "Men are also expected to dress modestly, refraining from wearing shorts or sleeveless shirts in public."
+                },
+                {
+                    "id": 86,
+                    "norm-id": 8,
+                    "text": "Public speech and interactions should reflect humility and modesty, avoiding boastful or immodest behavior."
+                },
+                {
+                    "id": 87,
+                    "norm-id": 8,
+                    "text": "Social media posts by women are closely monitored for content that may not align with cultural norms of modesty."
+                },
+                {
+                    "id": 88,
+                    "norm-id": 8,
+                    "text": "In conservative regions, women are expected to cover their faces in public, wearing the niqab."
+                },
+                {
+                    "id": 89,
+                    "norm-id": 8,
+                    "text": "Religious police in the past enforced dress codes in public spaces, ensuring adherence to modesty standards."
+                },
+                {
+                    "id": 90,
+                    "norm-id": 8,
+                    "text": "Schools and workplaces have dress codes that require modest attire, especially for women."
+                },
+
+                {
+                    "id": 91,
+                    "norm-id": 9,
+                    "text": "Families regularly donate to charities, especially during Ramadan when Zakat is emphasized."
+                },
+                {
+                    "id": 92,
+                    "norm-id": 9,
+                    "text": "Zakat contributions are used to support local community projects, such as building mosques and schools."
+                },
+                {
+                    "id": 93,
+                    "norm-id": 9,
+                    "text": "It is common for wealthy individuals to sponsor medical treatments or education for those in need."
+                },
+                {
+                    "id": 94,
+                    "norm-id": 9,
+                    "text": "During Eid, families distribute food and money to the poor as an act of generosity."
+                },
+                {
+                    "id": 95,
+                    "norm-id": 9,
+                    "text": "Businesses often participate in charitable activities, such as sponsoring community events or making donations."
+                },
+                {
+                    "id": 96,
+                    "norm-id": 9,
+                    "text": "Public campaigns encourage citizens to donate to official charities, particularly during religious holidays."
+                },
+                {
+                    "id": 97,
+                    "norm-id": 9,
+                    "text": "Government programs promote Zakat collection to support the less fortunate and social welfare initiatives."
+                },
+                {
+                    "id": 98,
+                    "norm-id": 9,
+                    "text": "Families teach their children the importance of Zakat and charity from a young age, incorporating it into religious education."
+                },
+                {
+                    "id": 99,
+                    "norm-id": 9,
+                    "text": "Community leaders organize food and clothing drives to help those in need, especially during winter."
+                },
+                {
+                    "id": 100,
+                    "norm-id": 9,
+                    "text": "Many Saudis see charity as a way to purify their wealth and ensure they are fulfilling their religious obligations."
+                },
+
+
+                {
+                    "id": 101,
+                    "norm-id": 10,
+                    "text": "In business, individuals often prefer to work with others from the same tribe or region, trusting their tribal connections to ensure fair dealings."
+                },
+                {
+                    "id": 102,
+                    "norm-id": 10,
+                    "text": "Marriages are frequently arranged within the same tribe, maintaining tribal identity and solidarity through familial bonds."
+                },
+                {
+                    "id": 103,
+                    "norm-id": 10,
+                    "text": "Tribal leaders play an important role in resolving local disputes, acting as mediators in both personal and business conflicts."
+                },
+                {
+                    "id": 104,
+                    "norm-id": 10,
+                    "text": "At weddings and other important ceremonies, tribes often display symbols of their heritage, such as traditional clothing or tribal dances."
+                },
+                {
+                    "id": 105,
+                    "norm-id": 10,
+                    "text": "Political alliances are sometimes influenced by tribal connections, with leaders from certain tribes holding key positions in government."
+                },
+                {
+                    "id": 106,
+                    "norm-id": 10,
+                    "text": "Tribal loyalty can affect decisions in legal matters, with individuals seeking support from tribal elders or leaders when faced with disputes."
+                },
+                {
+                    "id": 107,
+                    "norm-id": 10,
+                    "text": "During major tribal gatherings, members of the same tribe reconnect and strengthen social bonds, which reinforce collective identity."
+                },
+                {
+                    "id": 108,
+                    "norm-id": 10,
+                    "text": "Certain regions are known for their tribal influence, and people from these areas often carry a strong sense of pride in their tribal heritage."
+                },
+                {
+                    "id": 109,
+                    "norm-id": 10,
+                    "text": "Tribal names and affiliations are important markers of identity, often used to signal social standing or connections in formal and informal settings."
+                },
+                {
+                    "id": 110,
+                    "norm-id": 10,
+                    "text": "In times of national celebration or crisis, tribes rally together to show support for the country and its leadership, reinforcing national unity."
+                }
+
+            ]
+        
+        }
+
     ]
 }
