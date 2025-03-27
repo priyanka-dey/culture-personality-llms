@@ -11,7 +11,7 @@ import json
 class Response(BaseModel):
     answer: str
 
-api_key = "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"
+api_key = ""
 MODEL_generation = "gpt-4o-mini"
 client = OpenAI(api_key = api_key)
 
